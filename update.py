@@ -1,11 +1,11 @@
 import json
 import urllib.request
 
-TARGETS = {
-    "Star Sports": ["starsports1hindi", "star sports 1 hindi", "star sports"],
-    "Discovery": ["discovery"],
-    "9XM": ["9xm"],
-}
+TARGETS = [
+    "Star Sports",
+    "Discovery",
+    "9XM",
+]
 
 STREAMS_URL = "https://iptv-org.github.io/api/streams.json"
 CHANNELS_URL = "https://iptv-org.github.io/api/channels.json"
