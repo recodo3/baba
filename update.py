@@ -2,7 +2,7 @@ import json
 import urllib.request
 
 TARGETS = {
-    "Star Sports 1 Hindi": ["starsports1hindi", "star sports 1 hindi"],
+    "Star Sports": ["starsports1hindi", "star sports 1 hindi", "star sports"],
     "Discovery": ["discovery"],
     "9XM": ["9xm"],
 }
