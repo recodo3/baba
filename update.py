@@ -1,26 +1,17 @@
 import json
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
-from urllib.parse import urljoin
 
 STREAMS_URL = "https://iptv-org.github.io/api/streams.json"
 CHANNELS_URL = "https://iptv-org.github.io/api/channels.json"
-
-# ONLY these channel families
-TARGETS = [
-    "star sports",
-    "sony",
-    "tv18",
-    "9xm",
-]
 
 STREAM_TIMEOUT = 10
 
 
 def check_stream(url, user_agent=None, referrer=None):
     """
-    Check whether the URL returns something that looks like
-    a playable HLS/M3U8 stream.
+    Check whether the URL returns something that looks
+    like a playable HLS/M3U8 stream.
     """
 
     headers = {
@@ -42,15 +33,11 @@ def check_stream(url, user_agent=None, referrer=None):
                 "Content-Type", ""
             ).lower()
 
-            # Read the beginning of the response
             data = response.read(8192)
 
-            # HLS playlists normally contain #EXTM3U
             if b"#EXTM3U" in data:
                 return True
 
-            # Some servers don't provide a useful Content-Type,
-            # so also accept obvious video responses.
             if (
                 "mpegurl" in content_type
                 or "vnd.apple.mpegurl" in content_type
@@ -92,33 +79,36 @@ playlist = ["#EXTM3U"]
 
 seen = set()
 
+
 for stream in streams:
 
     channel_id = stream.get("channel")
     url = stream.get("url")
 
-    if not channel_id or not url:
+    if not url:
+        continue
+
+    # ==========================================================
+    # ONLY CLOUDPLAY STREAMS
+    # ==========================================================
+
+    if "cloudplay" not in url.lower():
         continue
 
     channel = channel_map.get(channel_id, {})
+
     name = channel.get("name", "")
 
     if not name:
-        continue
+        name = stream.get("title", "Unknown Channel")
 
-    name_lower = name.lower()
-
-    # ONLY requested channel families
-    if not any(target in name_lower for target in TARGETS):
-        continue
-
-    # Stream metadata supplied by iptv-org
     user_agent = stream.get("user_agent")
     referrer = stream.get("referrer")
+    quality = stream.get("quality")
+    title = stream.get("title")
 
-    # Avoid exact duplicate streams
+    # Prevent exact duplicate streams
     unique_key = (
-        channel_id,
         url,
         user_agent,
         referrer
@@ -129,6 +119,7 @@ for stream in streams:
 
     print(f"Testing: {name}")
 
+    # Test actual stream response
     if not check_stream(
         url,
         user_agent=user_agent,
@@ -141,17 +132,26 @@ for stream in streams:
 
     seen.add(unique_key)
 
-    # M3U metadata
-    extinf = f'#EXTINF:-1 group-title="India",{name}'
+    # Use stream title when available
+    display_name = title or name
 
-    playlist.append(extinf)
+    if quality:
+        display_name = f"{display_name} [{quality}]"
 
-    # Add VLC-compatible metadata when available
+    playlist.append(
+        f'#EXTINF:-1 group-title="CloudPlay",{display_name}'
+    )
+
+    # Preserve required VLC headers
     if user_agent:
-        playlist.append(f'#EXTVLCOPT:http-user-agent={user_agent}')
+        playlist.append(
+            f'#EXTVLCOPT:http-user-agent={user_agent}'
+        )
 
     if referrer:
-        playlist.append(f'#EXTVLCOPT:http-referrer={referrer}')
+        playlist.append(
+            f'#EXTVLCOPT:http-referrer={referrer}'
+        )
 
     playlist.append(url)
 
@@ -161,6 +161,6 @@ with open("playlist.m3u", "w", encoding="utf-8") as f:
 
 
 print()
-print("=" * 50)
-print(f"Streams added: {len(seen)}")
-print("=" * 50)
+print("=" * 60)
+print(f"CloudPlay streams added: {len(seen)}")
+print("=" * 60)
