@@ -1,12 +1,16 @@
-import requests
+import json
+from urllib.request import urlopen
 
 STREAMS_URL = "https://iptv-org.github.io/api/streams.json"
 CHANNELS_URL = "https://iptv-org.github.io/api/channels.json"
 
 print("Downloading iptv-org data...")
 
-streams = requests.get(STREAMS_URL, timeout=30).json()
-channels = requests.get(CHANNELS_URL, timeout=30).json()
+with urlopen(STREAMS_URL, timeout=30) as response:
+    streams = json.load(response)
+
+with urlopen(CHANNELS_URL, timeout=30) as response:
+    channels = json.load(response)
 
 channel_map = {
     channel["id"]: channel
@@ -41,11 +45,11 @@ for stream in streams:
 
     name_lower = name.lower()
 
-    # Match ONLY the requested channel families
+    # Include ONLY requested channel families
     if not any(target in name_lower for target in TARGETS):
         continue
 
-    # Prevent duplicate stream entries
+    # Avoid duplicate channel + stream combinations
     unique_key = (channel_id, url)
 
     if unique_key in seen:
@@ -56,7 +60,6 @@ for stream in streams:
     playlist.append(
         f'#EXTINF:-1 group-title="India",{name}'
     )
-
     playlist.append(url)
 
     print(f"FOUND: {name}")
