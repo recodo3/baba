@@ -1,12 +1,9 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="ramboHD",9XM
-https://streams.tangotv.in/9XM/ORIGIN/index.m3u8
-
 #EXTINF:-1 group-title="ramboHD",History TV
-https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8
+https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungindia-historychannelhindi-samsungin/playlist.m3u8
 
-#EXTINF:-1 group-title="ramboHD",Sony Ten 1 HD
+#EXTINF:-1 group-title="ramboHD",Sony TV
 https://cloudplay-sonyliv.pages.dev/sethd.m3u8
 
 #EXTINF:-1 group-title="ramboHD",Sony Max 2
@@ -15,17 +12,20 @@ https://cloudplay-sonyliv.pages.dev/max2.m3u8
 #EXTINF:-1 group-title="ramboHD",Sony Max HD
 https://cloudplay-sonyliv.pages.dev/maxhd.m3u8
 
-#EXTINF:-1 group-title="ramboHD",Star Sports 2 HD
-http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
-
 #EXTINF:-1 group-title="ramboHD",Sony Ten 1 HD
 https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
 
 #EXTINF:-1 group-title="ramboHD",Sony Ten 2 HD
 https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
 
-#EXTINF:-1 group-title="ramboHD",Sony Ten 3 HD
+#EXTINF:-1 group-title="ramboHD",Sony Ten 3 Hindi
 https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
 
 #EXTINF:-1 group-title="ramboHD",Sony Ten 5 HD
 https://cloudplay-sonyliv.pages.dev/ten5hd.m3u8
+
+#EXTINF:-1 group-title="ramboHD",Star Plus
+http://202.70.146.135:8000/play/a009/index.m3u8
+
+#EXTINF:-1 group-title="ramboHD",Star Sports 2 HD
+http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
