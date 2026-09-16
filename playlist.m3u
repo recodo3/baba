@@ -202,8 +202,6 @@ https://n18syndication.akamaized.net/bpk-tv/News18_India_NW18_MOB/output01/maste
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
 #EXTVLCOPT:http-referrer=https://kannada.news18.com/
 https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="India 1080p",News18 Kerala [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="India 1080p",News18 Madhya Pradesh/Chhattisgarh [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_MP_Chhattisgarh_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="India 1080p",News18 Marathi [1080p]
@@ -238,6 +236,8 @@ https://live.olidigital.in/olitv/olitv/index.m3u8
 https://mumbai-edge.smartplaytv.in/PMC/index.m3u8
 #EXTINF:-1 group-title="India 1080p",Pravasi Channel [1080p]
 https://m6gdavepdn93-hls-live.5centscdn.com/pravasi/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+#EXTINF:-1 group-title="India 1080p",Prudent Media [1080p]
+https://prudentmcdn.rixcast.com/prudentm.m3u8
 #EXTINF:-1 group-title="India 1080p",PTC Punjabi HD [1080p]
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/index.m3u8
 #EXTINF:-1 group-title="India 1080p",PTC Punjabi Gold [1080p]
@@ -448,8 +448,6 @@ https://raw.githubusercontent.com/Alstruit/adaptive-streams/alstruit-10_23_in/st
 https://live1.ottlive.co.in/worldpunjabitv/worldpunjabitv/index.m3u8
 #EXTINF:-1 group-title="India 1080p",YRF Music [1080p]
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
-#EXTINF:-1 group-title="India 1080p",ZB Cartoon [1080p]
-https://server.zillarbarta.com/zbcatun/video.m3u8
 #EXTINF:-1 group-title="India 1080p",Zee Kannada HD [1080p]
 https://yuppnimresmum.akamaized.net/28072023/smil:zeekannadahd.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 group-title="India 1080p",Zee News [1080p]
@@ -458,3 +456,5 @@ https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8
 https://dt3lrqnyx3dks.cloudfront.net/index.m3u8
 #EXTINF:-1 group-title="India 1080p",Zee Zest HD [1080p]
 http://107.167.16.138/zeezesthd/index.m3u8?token=test
+#EXTINF:-1 group-title="India 1080p",Zodiak TV [1080p]
+https://ranacable.duckdns.org/ZodiakTv/index.m3u8
