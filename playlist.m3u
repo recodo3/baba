@@ -67,8 +67,6 @@ https://chardikalanorthamerica.gigabitcdn.net/in-chardikala/chardikala-north-usa
 https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="India 1080p",CNBC Bajar [1080p]
 https://n18syndication.akamaized.net/bpk-tv/CNBC_Bazaar_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="India 1080p",CNBC TV18 [1080p]
-https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8
 #EXTINF:-1 group-title="India 1080p",CNBC TV18 Prime HD [1080p]
 https://n18syndication.akamaized.net/bpk-tv/CNBC_Tv18_Prime_HD_NW18_MOB/output01/index.m3u8
 #EXTINF:-1 group-title="India 1080p",CTVN AKD Plus [1080p]
@@ -163,6 +161,8 @@ https://amg17783-amg17783c1-amgplt0173.playout.now3.amagi.tv/playlist/amg17783-a
 https://amg01911-mangotv-amg01911c1-xiaomi-in-1270.playouts.now.amagi.tv/playlist/amg01911-mangomassmedia-mangotv-xiaomiin/playlist.m3u8
 #EXTINF:-1 group-title="India 1080p",Manorama News [1080p]
 https://mmtvnews1.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvNewsCampaign1/index.m3u8
+#EXTINF:-1 group-title="India 1080p",MNTV [1080p]
+https://mntv.livebox.co.in/mntvhls/live.m3u8
 #EXTINF:-1 group-title="India 1080p",Mazhavil Manorama HD [1080p]
 https://mmtv-vglivessai.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/f8a0827f-030f-4a0d-b7e5-338996c09a5b/index.m3u8
 #EXTINF:-1 group-title="India 1080p",Mercy TV [1080p]
@@ -194,12 +194,8 @@ https://n18syndication.akamaized.net/bpk-tv/News18_Bihar_Jharkhand_NW18_MOB/outp
 https://n18syndication.akamaized.net/bpk-tv/News18_JKLH_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="India 1080p",News18 Gujarati [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_Gujarati_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="India 1080p",News18 Kannada [1080p]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
-#EXTVLCOPT:http-referrer=https://kannada.news18.com/
-https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="India 1080p",News18 Kerala [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 group-title="India 1080p",News18 India [1080p]
+https://n18syndication.akamaized.net/bpk-tv/News18_India_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="India 1080p",News18 Madhya Pradesh/Chhattisgarh [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_MP_Chhattisgarh_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="India 1080p",News18 Marathi [1080p]
@@ -416,8 +412,6 @@ https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/in
 https://amg00416-amg00416c9-samsung-in-4882.playouts.now.amagi.tv/playlist/amg00416-travelxp-travelxphd-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="India 1080p",Travelxp Russia [1080p]
 http://stream.mcquack.net/451/index.m3u8
-#EXTINF:-1 group-title="India 1080p",TV30 India [1080p]
-https://stream.tv30bharat.com/hls/shree/bhattji.m3u8
 #EXTINF:-1 group-title="India 1080p",TV45 [1080p]
 https://server.livelegitpro.in/bnews24/bnews24/video.m3u8
 #EXTINF:-1 group-title="India 1080p",TV BRICS English [1080p]
@@ -446,8 +440,6 @@ https://raw.githubusercontent.com/Alstruit/adaptive-streams/alstruit-10_23_in/st
 https://live1.ottlive.co.in/worldpunjabitv/worldpunjabitv/index.m3u8
 #EXTINF:-1 group-title="India 1080p",YRF Music [1080p]
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
-#EXTINF:-1 group-title="India 1080p",ZB Cartoon [1080p]
-https://server.zillarbarta.com/zbcatun/video.m3u8
 #EXTINF:-1 group-title="India 1080p",Zee Kannada HD [1080p]
 https://yuppnimresmum.akamaized.net/28072023/smil:zeekannadahd.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 group-title="India 1080p",Zee News [1080p]
