@@ -254,6 +254,8 @@ https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/
 https://n18syndication.akamaized.net/bpk-tv/News18_Urdu_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="India 1080p",News18 Uttar Pradesh Uttarakhand [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_UP_Uttarakhand_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 group-title="India 1080p",News Capital Gujarat [1080p]
+https://newscapital.com/hls/main4/stream.m3u8
 #EXTINF:-1 group-title="India 1080p",News Capital Market [1080p]
 https://newscapital.com/hls/stream.m3u8?token=Nc360PermanentSecureKey987
 #EXTINF:-1 group-title="India 1080p",News Nation 81 [1080p]
@@ -296,8 +298,6 @@ https://m6gdavepdn93-hls-live.5centscdn.com/pravasi/d0dbe915091d400bd8ee7f27f079
 https://mumbai-edge.smartplaytv.in/Prime9News/index.m3u8
 #EXTINF:-1 group-title="India 1080p",Prime News [1080p]
 https://stream.ottlive.co.in/primenews/index.m3u8
-#EXTINF:-1 group-title="India 1080p",Prudent Media [1080p]
-https://prudentmcdn.rixcast.com/prudentm.m3u8
 #EXTINF:-1 group-title="India 1080p",PTC Punjabi HD [1080p]
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/index.m3u8
 #EXTINF:-1 group-title="India 1080p",PTC Punjabi Gold [1080p]
@@ -326,6 +326,8 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/2e31d831f08640ff92f65003bdc89991/in
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/RepublicTV.m3u8
 #EXTINF:-1 group-title="India 1080p",Republic TV [1080p]
 https://samsung-republictv.amagi.tv/ts-ap-s1-n1/playlist/samsungin-republictv-samsungindia/playlist.m3u8
+#EXTINF:-1 group-title="India 1080p",Rozana Spokesman [1080p]
+https://live1.ottlive.co.in/spokesman/spokesman/index.m3u8
 #EXTINF:-1 group-title="India 1080p",RT India [1080p]
 https://rt-india.rttv.com/dvr/rtindia/playlist.m3u8
 #EXTINF:-1 group-title="India 1080p",RT India [1080p]
@@ -430,8 +432,6 @@ https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://nktv.smartstream.video/smartstream-us/spondon/spondon/playlist.m3u8
 #EXTINF:-1 group-title="India 1080p",StarPlus HD [1080p]
 http://41.205.93.154/STAR-PLUS/index.m3u8
-#EXTINF:-1 group-title="India 1080p",Subin TV [1080p]
-https://stream.galaxyott.live/live/subintv/index.m3u8
 #EXTINF:-1 group-title="India 1080p",Sudarshan News [1080p]
 https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8
 #EXTINF:-1 group-title="India 1080p",Suriya TV [1080p]
