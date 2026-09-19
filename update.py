@@ -22,7 +22,7 @@ def is_allowed_quality(quality):
     return quality in {
         "1080p",
         "2160p",
-        "720p"
+        "720p",
     }
 
 
@@ -199,13 +199,18 @@ print("=" * 60)
 print("FILTER RESULTS")
 print("=" * 60)
 print(
-    f"1080p / 2160p candidates: {len(candidates)}"
+    f"720p / 1080p / 2160p candidates: {len(candidates)}"
 )
 print("=" * 60)
 
 
 # =========================================================
 # TEST ALL STREAMS
+#
+# ONLY STREAMS THAT PASS check_stream()
+# ARE ADDED TO "working".
+#
+# DEAD/FAILED URLS ARE NEVER ADDED.
 # =========================================================
 
 print()
@@ -257,20 +262,50 @@ with ThreadPoolExecutor(
 # =========================================================
 # ONE CHANNEL OF EACH KIND
 #
-# channel_id is the primary identity.
-# Therefore multiple URLs/feeds for the same
-# source channel become ONE playlist entry.
+# QUALITY PRIORITY:
 #
-# The first working URL found is retained.
+# 2160p > 1080p > 720p
+#
+# If a channel has a WORKING 2160p stream,
+# do not add its 1080p or 720p stream.
+#
+# If no working 2160p exists but a working 1080p
+# exists, keep 1080p and remove 720p.
+#
+# If neither 2160p nor 1080p works,
+# keep a working 720p stream.
 # =========================================================
+
+quality_priority = {
+    "2160p": 3,
+    "1080p": 2,
+    "720p": 1,
+}
 
 unique_channels = {}
 
 for item in working:
 
     channel_id = item["channel_id"]
+    quality = item["quality"]
 
     if channel_id not in unique_channels:
+        unique_channels[channel_id] = item
+        continue
+
+    existing = unique_channels[channel_id]
+
+    existing_priority = quality_priority.get(
+        existing["quality"],
+        0,
+    )
+
+    new_priority = quality_priority.get(
+        quality,
+        0,
+    )
+
+    if new_priority > existing_priority:
         unique_channels[channel_id] = item
 
 
@@ -302,7 +337,6 @@ playlist = [
 for item in working:
 
     display_name = item["name"]
-
     display_quality = item["quality"]
 
     playlist.append(
@@ -354,7 +388,7 @@ print("=" * 60)
 print("FINAL PLAYLIST")
 print("=" * 60)
 print(
-    f"1080p / 2160p candidates: {len(candidates)}"
+    f"Candidates tested:         {len(candidates)}"
 )
 print(
     f"Working streams:           {len(working)}"
