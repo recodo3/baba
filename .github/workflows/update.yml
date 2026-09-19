@@ -2,11 +2,16 @@ name: Update IPTV Playlist
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "0 */6 * * *"
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-iptv-playlist
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -15,20 +20,75 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.12"
+          cache: "pip"
 
       - name: Generate playlist
         run: python update.py
 
-      - name: Save updated playlist
+      - name: Commit and push playlist safely
+        shell: bash
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Save the newly generated playlist outside Git's working tree.
+          cp playlist.m3u /tmp/generated-playlist.m3u
+
+          # Get the latest repository state.
+          git fetch origin main
+
+          # Start from the latest remote main.
+          git reset --hard origin/main
+
+          # Put our newly generated playlist on top.
+          cp /tmp/generated-playlist.m3u playlist.m3u
+
           git add playlist.m3u
-          git diff --cached --quiet || git commit -m "Update IPTV playlist"
-          git pull --rebase origin main
-          git push origin main
+
+          # Nothing changed.
+          if git diff --cached --quiet; then
+            echo "Playlist has not changed."
+            exit 0
+          fi
+
+          git commit -m "Update IPTV playlist"
+
+          # Retry in case main changes while this job is running.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Playlist pushed successfully."
+              exit 0
+            fi
+
+            echo "Push failed. Refreshing main and retrying..."
+
+            git fetch origin main
+
+            cp playlist.m3u /tmp/generated-playlist.m3u
+
+            git reset --hard origin/main
+
+            cp /tmp/generated-playlist.m3u playlist.m3u
+
+            git add playlist.m3u
+
+            if git diff --cached --quiet; then
+              echo "Remote already contains the generated playlist."
+              exit 0
+            fi
+
+            git commit -m "Update IPTV playlist"
+          done
+
+          echo "Failed to push after 5 attempts."
+          exit 1
