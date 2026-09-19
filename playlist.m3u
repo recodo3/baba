@@ -1,43 +1,9 @@
 #EXTM3U
 
-# ===== SPORTS =====
-
-#EXTINF:-1 group-title="SPORTS",Sony Sports Ten 3 Hindi [1080p]
-https://cloudplay-sonyliv.pages.dev/ten3.m3u8
-#EXTINF:-1 group-title="SPORTS",Sony Sports Ten 3 Hindi [1080p]
-https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
-
-# ===== MOVIES =====
-
-#EXTINF:-1 group-title="MOVIES",Sony Max [1080p] [Hindi]
-https://cloudplay-sonyliv.pages.dev/max.m3u8
-#EXTINF:-1 group-title="MOVIES",Sony Max [1080p] [Hindi]
-https://cloudplay-sonyliv.pages.dev/maxhd.m3u8
-#EXTINF:-1 group-title="MOVIES",Sony Max 2 [1080p] [Hindi]
-https://cloudplay-sonyliv.pages.dev/max2.m3u8
-#EXTINF:-1 group-title="MOVIES",Sony Pix [1080p] [Hindi]
-https://cloudplay-sonyliv.pages.dev/pixhd.m3u8
-#EXTINF:-1 group-title="MOVIES",Sony Pix [1080p] [Hindi]
-https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8
-
 # ===== ENTERTAINMENT =====
 
-#EXTINF:-1 group-title="ENTERTAINMENT",Sony BBC Earth [1080p] [Hindi]
-https://cloudplay-sonyliv.pages.dev/bbcearthhd.m3u8
 #EXTINF:-1 group-title="ENTERTAINMENT",Sony Entertainment Television [1080p] [Hindi]
 http://38.96.178.205/SONYHD/index.m3u8
-#EXTINF:-1 group-title="ENTERTAINMENT",Sony Entertainment Television [1080p] [Hindi]
-https://cloudplay-sonyliv.pages.dev/sethd.m3u8
-#EXTINF:-1 group-title="ENTERTAINMENT",Sony Pal [1080p] [Hindi]
-https://cloudplay-sonyliv.pages.dev/pal.m3u8
-#EXTINF:-1 group-title="ENTERTAINMENT",Sony SAB [1080p] [Hindi]
-https://cloudplay-sonyliv.pages.dev/sabhd.m3u8
-#EXTINF:-1 group-title="ENTERTAINMENT",Sony Wah [1080p] [Hindi]
-https://cloudplay-sonyliv.pages.dev/wah.m3u8
-#EXTINF:-1 group-title="ENTERTAINMENT",Sony Wah [1080p] [Hindi]
-https://sl.vodep39240327.workers.dev/channel/SONY+WAH.m3u8
-#EXTINF:-1 group-title="ENTERTAINMENT",Sony Yay! [1080p] [Hindi]
-https://cloudplay-sonyliv.pages.dev/yay.m3u8
 #EXTINF:-1 group-title="ENTERTAINMENT",StarPlus [1080p] [Hindi]
 http://41.205.93.154/STAR-PLUS/index.m3u8
 #EXTINF:-1 group-title="ENTERTAINMENT",Zee Zest [1080p] [Hindi]
@@ -45,9 +11,5 @@ http://107.167.16.138/zeezesthd/index.m3u8?token=test
 
 # ===== FACTUAL & DOCUMENTARY =====
 
-#EXTINF:-1 group-title="FACTUAL & DOCUMENTARY",History TV18 [1080p] [Hindi]
-https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="FACTUAL & DOCUMENTARY",History TV18 [1080p] [Hindi]
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/HistoryTV18HD.m3u8
 #EXTINF:-1 group-title="FACTUAL & DOCUMENTARY",History TV18 [1080p] [Hindi]
 https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungindia-historychannelhindi-samsungin/playlist.m3u8
