@@ -165,6 +165,8 @@ https://indiadaily.ottlive.co.in/indiadailylive/index.m3u8
 https://amg01550-amg01550c6-samsung-in-4679.playouts.now.amagi.tv/playlist/amg01550-indiatvfast-indiatvakasamsung-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="India 1080p",India TV Speed News [1080p]
 https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8
+#EXTINF:-1 group-title="India 1080p",India TV Speed News [1080p]
+https://cc-lyf4c0hwzg5dd.akamaized.net/v1/vglive-sk-479089/main.m3u8
 #EXTINF:-1 group-title="India 1080p",Janta TV [1080p]
 https://live.jswk.online/IK_RTPM/live/index.m3u8
 #EXTINF:-1 group-title="India 1080p",Joy TV [1080p]
@@ -232,14 +234,12 @@ https://n18syndication.akamaized.net/bpk-tv/News18_India_NW18_MOB/output01/maste
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
 #EXTVLCOPT:http-referrer=https://kannada.news18.com/
 https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="India 1080p",News18 Kerala [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 group-title="India 1080p",News18 Kannada [1080p]
+https://mumbai-edge.smartplaytv.in/news18kannada/index.m3u8
+#EXTINF:-1 group-title="India 1080p",News18 Madhya Pradesh/Chhattisgarh [1080p]
+https://n18syndication.akamaized.net/bpk-tv/News18_MP_Chhattisgarh_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="India 1080p",News18 Marathi [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_Lokmat_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="India 1080p",News18 Odia [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Odia_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="India 1080p",News18 Punjab/Haryana/Himachal [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="India 1080p",News18 Rajasthan [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_Rajasthan_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="India 1080p",News18 Tamil Nadu [1080p]
@@ -280,12 +280,8 @@ https://nktv.smartstream.video/smartstream-us/nkbangla/nkbangla/playlist.m3u8
 https://legitpro.co.in/nsc9/index.m3u8
 #EXTINF:-1 group-title="India 1080p",NTV Telugu [1080p]
 https://mumbai-edge.smartplaytv.in/NTVTelugu/index.m3u8
-#EXTINF:-1 group-title="India 1080p",Oli TV [1080p]
-https://live.olidigital.in/olitv/olitv/index.m3u8
 #EXTINF:-1 group-title="India 1080p",PMC Telugu [1080p]
 https://mumbai-edge.smartplaytv.in/PMC/index.m3u8
-#EXTINF:-1 group-title="India 1080p",Pradesh24 Gujarati [1080p]
-https://stream2.livebox.co.in/pradesh24hls/live.m3u8
 #EXTINF:-1 group-title="India 1080p",Pravasi Channel [1080p]
 https://m6gdavepdn93-hls-live.5centscdn.com/pravasi/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
 #EXTINF:-1 group-title="India 1080p",Prime9 News [1080p]
@@ -520,3 +516,5 @@ https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8
 https://dt3lrqnyx3dks.cloudfront.net/index.m3u8
 #EXTINF:-1 group-title="India 1080p",Zee Zest HD [1080p]
 http://107.167.16.138/zeezesthd/index.m3u8?token=test
+#EXTINF:-1 group-title="India 1080p",Zodiak TV [1080p]
+https://ranacable.duckdns.org/ZodiakTv/index.m3u8
