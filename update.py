@@ -16,6 +16,10 @@ def normalize(value):
     )
 
 
+def is_discovery_channel(name):
+    return "discovery" in normalize(name)
+
+
 def is_allowed_quality(quality):
     quality = normalize(quality)
 
@@ -130,7 +134,14 @@ channel_map = {
 
 
 # =========================================================
-# FILTER ONLY BY QUALITY
+# FILTER
+#
+# NORMAL CHANNELS:
+#   Only 1080p / 2160p
+#
+# DISCOVERY CHANNELS:
+#   Ignore quality completely.
+#   Any Discovery channel is allowed.
 # =========================================================
 
 candidates = []
@@ -139,15 +150,11 @@ for stream in streams:
 
     channel_id = stream.get("channel")
     url = stream.get("url")
-    quality = stream.get("quality")
 
     if not channel_id:
         continue
 
     if not url:
-        continue
-
-    if not is_allowed_quality(quality):
         continue
 
     channel = channel_map.get(channel_id)
@@ -161,6 +168,16 @@ for stream in streams:
         or channel_id
     )
 
+    discovery = is_discovery_channel(
+        channel_name
+    )
+
+    if not discovery:
+        if not is_allowed_quality(
+            stream.get("quality")
+        ):
+            continue
+
     candidates.append({
         "channel_id": channel_id,
         "name": channel_name,
@@ -168,10 +185,15 @@ for stream in streams:
             stream.get("title")
             or channel_name
         ),
-        "quality": normalize(quality),
+        "quality": (
+            normalize(stream.get("quality"))
+            if stream.get("quality")
+            else "unknown"
+        ),
         "url": url,
         "user_agent": stream.get("user_agent"),
         "referrer": stream.get("referrer"),
+        "discovery": discovery,
     })
 
 
@@ -197,9 +219,26 @@ print()
 print("=" * 60)
 print("FILTER RESULTS")
 print("=" * 60)
-print(
-    f"1080p / 2160p candidates: {len(candidates)}"
+
+discovery_count = sum(
+    1 for item in candidates
+    if item["discovery"]
 )
+
+quality_count = len(candidates) - discovery_count
+
+print(
+    f"1080p / 2160p candidates: {quality_count}"
+)
+
+print(
+    f"Discovery candidates:      {discovery_count}"
+)
+
+print(
+    f"Total candidates:          {len(candidates)}"
+)
+
 print("=" * 60)
 
 
@@ -239,8 +278,9 @@ with ThreadPoolExecutor(
         if result:
 
             print(
-                f"WORKING {result['quality']}: "
-                f"{result['name']}"
+                f"WORKING "
+                f"{result['name']} "
+                f"[{result['quality']}]"
             )
 
             working.append(result)
@@ -248,8 +288,9 @@ with ThreadPoolExecutor(
         else:
 
             print(
-                f"DEAD {item['quality']}: "
-                f"{item['name']}"
+                f"DEAD "
+                f"{item['name']} "
+                f"[{item['quality']}]"
             )
 
 
@@ -258,9 +299,7 @@ with ThreadPoolExecutor(
 #
 # channel_id is the primary identity.
 # Therefore multiple URLs/feeds for the same
-# source channel become ONE playlist entry.
-#
-# The first working URL found is retained.
+# channel become ONE playlist entry.
 # =========================================================
 
 unique_channels = {}
@@ -301,7 +340,6 @@ playlist = [
 for item in working:
 
     display_name = item["name"]
-
     display_quality = item["quality"]
 
     playlist.append(
@@ -348,19 +386,36 @@ with open(
 # FINAL REPORT
 # =========================================================
 
+discovery_final = sum(
+    1 for item in working
+    if item["discovery"]
+)
+
 print()
 print("=" * 60)
 print("FINAL PLAYLIST")
 print("=" * 60)
+
 print(
-    f"1080p / 2160p candidates: {len(candidates)}"
+    f"1080p / 2160p candidates: {quality_count}"
 )
+
+print(
+    f"Discovery candidates:      {discovery_count}"
+)
+
 print(
     f"Working streams:           {len(working)}"
 )
+
 print(
     f"Unique channels:           {len(working)}"
 )
+
+print(
+    f"Discovery channels added:  {discovery_final}"
+)
+
 print("=" * 60)
 print("playlist.m3u generated successfully.")
 print("=" * 60)
