@@ -26,6 +26,21 @@ def is_allowed_quality(quality):
     }
 
 
+# =========================================================
+# ALLOWED COUNTRIES
+#
+# IN = India
+# US = United States
+# FR = France
+# =========================================================
+
+ALLOWED_COUNTRIES = {
+    "IN",
+    "US",
+    "FR",
+}
+
+
 def check_stream(item):
     url = item["url"]
 
@@ -131,7 +146,7 @@ channel_map = {
 
 
 # =========================================================
-# FILTER ONLY BY QUALITY
+# FILTER BY COUNTRY + QUALITY
 # =========================================================
 
 candidates = []
@@ -148,12 +163,17 @@ for stream in streams:
     if not url:
         continue
 
-    if not is_allowed_quality(quality):
-        continue
-
     channel = channel_map.get(channel_id)
 
     if not channel:
+        continue
+
+    # COUNTRY FILTER
+    if channel.get("country") not in ALLOWED_COUNTRIES:
+        continue
+
+    # QUALITY FILTER
+    if not is_allowed_quality(quality):
         continue
 
     channel_name = (
@@ -199,7 +219,8 @@ print("=" * 60)
 print("FILTER RESULTS")
 print("=" * 60)
 print(
-    f"720p / 1080p / 2160p candidates: {len(candidates)}"
+    f"IN / US / FR + 720p / 1080p / 2160p candidates: "
+    f"{len(candidates)}"
 )
 print("=" * 60)
 
@@ -394,7 +415,7 @@ print(
     f"Working streams:           {len(working)}"
 )
 print(
-    f"Unique channels:           {len(working)}"
+    f"Unique channels:            {len(working)}"
 )
 print("=" * 60)
 print("playlist.m3u generated successfully.")
