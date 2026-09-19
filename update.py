@@ -4,15 +4,40 @@ from urllib.error import URLError, HTTPError
 
 STREAMS_URL = "https://iptv-org.github.io/api/streams.json"
 CHANNELS_URL = "https://iptv-org.github.io/api/channels.json"
+FEEDS_URL = "https://iptv-org.github.io/api/feeds.json"
 
 STREAM_TIMEOUT = 10
 
+# =========================================================
+# YOUR CHANNEL POLICY
+# =========================================================
+
+ALLOWED_NETWORKS = {
+    "Sony",
+    "Star",
+    "Discovery",
+    "History TV18",
+    "Animal Planet",
+}
+
+# Explicitly reject these regardless of network
+EXCLUDED_KEYWORDS = {
+    "news",
+    "business",
+    "breaking news",
+    "politics",
+    "financial news",
+}
+
+# Hindi ISO 639-3 code
+HINDI_CODE = "hin"
+
+
+# =========================================================
+# STREAM CHECK
+# =========================================================
 
 def check_stream(url, user_agent=None, referrer=None):
-    """
-    Check whether the stream responds and looks like
-    a playable HLS/M3U8 stream.
-    """
 
     headers = {
         "User-Agent": user_agent or "Mozilla/5.0"
@@ -22,6 +47,7 @@ def check_stream(url, user_agent=None, referrer=None):
         headers["Referer"] = referrer
 
     try:
+
         request = Request(url, headers=headers)
 
         with urlopen(request, timeout=STREAM_TIMEOUT) as response:
@@ -35,11 +61,9 @@ def check_stream(url, user_agent=None, referrer=None):
 
             data = response.read(8192)
 
-            # HLS playlist
             if b"#EXTM3U" in data:
                 return True
 
-            # HLS/video content types
             if (
                 "mpegurl" in content_type
                 or "vnd.apple.mpegurl" in content_type
@@ -61,6 +85,10 @@ def check_stream(url, user_agent=None, referrer=None):
         return False
 
 
+# =========================================================
+# DOWNLOAD DATA
+# =========================================================
+
 print("Downloading iptv-org data...")
 
 with urlopen(STREAMS_URL, timeout=30) as response:
@@ -69,10 +97,13 @@ with urlopen(STREAMS_URL, timeout=30) as response:
 with urlopen(CHANNELS_URL, timeout=30) as response:
     channels = json.load(response)
 
+with urlopen(FEEDS_URL, timeout=30) as response:
+    feeds = json.load(response)
 
-# ---------------------------------------------------------
-# CHANNEL DATABASE
-# ---------------------------------------------------------
+
+# =========================================================
+# DATABASES
+# =========================================================
 
 channel_map = {
     channel["id"]: channel
@@ -80,23 +111,84 @@ channel_map = {
     if "id" in channel
 }
 
+feed_map = {
+    (feed.get("channel"), feed.get("id")): feed
+    for feed in feeds
+    if feed.get("channel") and feed.get("id")
+}
 
-# ---------------------------------------------------------
+
+# =========================================================
+# HELPERS
+# =========================================================
+
+def normalize(text):
+    return " ".join(
+        str(text or "").lower().split()
+    )
+
+
+def is_news_channel(channel, stream):
+
+    values = [
+        channel.get("name", ""),
+        channel.get("network", ""),
+        stream.get("title", ""),
+    ]
+
+    text = normalize(" ".join(values))
+
+    return any(
+        keyword in text
+        for keyword in EXCLUDED_KEYWORDS
+    )
+
+
+def is_allowed_network(channel):
+
+    network = normalize(channel.get("network"))
+
+    name = normalize(channel.get("name"))
+
+    # Network-based matching
+    for allowed in ALLOWED_NETWORKS:
+
+        allowed_normalized = normalize(allowed)
+
+        if (
+            allowed_normalized in network
+            or allowed_normalized in name
+        ):
+            return True
+
+    return False
+
+
+def is_hindi_feed(feed):
+
+    languages = feed.get("languages", [])
+
+    return HINDI_CODE in languages
+
+
+# =========================================================
 # PLAYLIST
-# ---------------------------------------------------------
+# =========================================================
 
 playlist = ["#EXTM3U"]
 
 seen = set()
 
 total_indian = 0
+total_allowed = 0
+total_hindi = 0
 total_1080p = 0
 total_working = 0
 
 
-# ---------------------------------------------------------
+# =========================================================
 # PROCESS STREAMS
-# ---------------------------------------------------------
+# =========================================================
 
 for stream in streams:
 
@@ -108,7 +200,7 @@ for stream in streams:
 
 
     # -----------------------------------------------------
-    # GET CHANNEL INFORMATION
+    # CHANNEL
     # -----------------------------------------------------
 
     channel = channel_map.get(channel_id)
@@ -118,56 +210,89 @@ for stream in streams:
 
 
     # -----------------------------------------------------
-    # CONDITION 1:
-    # ONLY INDIAN CHANNELS
+    # INDIA
     # -----------------------------------------------------
 
-    country = channel.get("country")
-
-    if country != "IN":
+    if channel.get("country") != "IN":
         continue
 
     total_indian += 1
 
 
     # -----------------------------------------------------
-    # CONDITION 2:
-    # ONLY 1080P
+    # ALLOWED NETWORK
     # -----------------------------------------------------
 
-    quality = stream.get("quality")
+    if not is_allowed_network(channel):
+        continue
 
-    if quality != "1080p":
+    total_allowed += 1
+
+
+    # -----------------------------------------------------
+    # REMOVE NEWS
+    # -----------------------------------------------------
+
+    if is_news_channel(channel, stream):
+        continue
+
+
+    # -----------------------------------------------------
+    # FEED
+    # -----------------------------------------------------
+
+    feed_id = stream.get("feed")
+
+    feed = feed_map.get(
+        (channel_id, feed_id)
+    )
+
+    if not feed:
+        continue
+
+
+    # -----------------------------------------------------
+    # HINDI ONLY
+    # -----------------------------------------------------
+
+    if not is_hindi_feed(feed):
+        continue
+
+    total_hindi += 1
+
+
+    # -----------------------------------------------------
+    # 1080P ONLY
+    # -----------------------------------------------------
+
+    if stream.get("quality") != "1080p":
         continue
 
     total_1080p += 1
 
 
     # -----------------------------------------------------
-    # CHANNEL NAME
+    # STREAM INFO
     # -----------------------------------------------------
 
-    name = channel.get("name", "")
+    name = channel.get(
+        "name",
+        stream.get("title", "Unknown Channel")
+    )
 
-    if not name:
-        name = stream.get("title", "Unknown Channel")
-
-
-    # -----------------------------------------------------
-    # STREAM INFORMATION
-    # -----------------------------------------------------
+    title = stream.get("title")
 
     user_agent = stream.get("user_agent")
     referrer = stream.get("referrer")
-    title = stream.get("title")
 
 
     # -----------------------------------------------------
-    # PREVENT EXACT DUPLICATES
+    # DUPLICATE PROTECTION
     # -----------------------------------------------------
 
     unique_key = (
         channel_id,
+        feed_id,
         url,
         user_agent,
         referrer
@@ -176,12 +301,14 @@ for stream in streams:
     if unique_key in seen:
         continue
 
+    seen.add(unique_key)
+
 
     # -----------------------------------------------------
     # TEST STREAM
     # -----------------------------------------------------
 
-    print(f"Testing 1080p: {name}")
+    print(f"Testing Hindi 1080p: {name}")
 
     if not check_stream(
         url,
@@ -192,9 +319,8 @@ for stream in streams:
         continue
 
 
-    print(f"WORKING 1080p: {name}")
+    print(f"WORKING Hindi 1080p: {name}")
 
-    seen.add(unique_key)
     total_working += 1
 
 
@@ -204,23 +330,20 @@ for stream in streams:
 
     display_name = title or name
 
-    # Make sure playlist clearly shows 1080p
     if "1080p" not in display_name.lower():
-        display_name = f"{display_name} [1080p]"
+        display_name += " [1080p]"
+
+    if "hindi" not in display_name.lower():
+        display_name += " [Hindi]"
 
 
     # -----------------------------------------------------
-    # ADD TO PLAYLIST
+    # M3U
     # -----------------------------------------------------
 
     playlist.append(
-        f'#EXTINF:-1 group-title="India 1080p",{display_name}'
+        f'#EXTINF:-1 group-title="India Hindi 1080p",{display_name}'
     )
-
-
-    # -----------------------------------------------------
-    # PRESERVE VLC HEADERS
-    # -----------------------------------------------------
 
     if user_agent:
         playlist.append(
@@ -232,13 +355,12 @@ for stream in streams:
             f'#EXTVLCOPT:http-referrer={referrer}'
         )
 
-
     playlist.append(url)
 
 
-# ---------------------------------------------------------
+# =========================================================
 # WRITE PLAYLIST
-# ---------------------------------------------------------
+# =========================================================
 
 with open(
     "playlist.m3u",
@@ -249,17 +371,19 @@ with open(
     f.write("\n".join(playlist) + "\n")
 
 
-# ---------------------------------------------------------
+# =========================================================
 # REPORT
-# ---------------------------------------------------------
+# =========================================================
 
 print()
 print("=" * 60)
-print("INDIA 1080P PLAYLIST")
+print("INDIA HINDI 1080P PLAYLIST")
 print("=" * 60)
 
 print(f"Indian streams found:       {total_indian}")
-print(f"Indian 1080p streams:       {total_1080p}")
-print(f"Working 1080p streams:      {total_working}")
+print(f"Allowed network streams:   {total_allowed}")
+print(f"Hindi feeds:                {total_hindi}")
+print(f"Hindi 1080p streams:        {total_1080p}")
+print(f"Working Hindi 1080p:        {total_working}")
 
 print("=" * 60)
