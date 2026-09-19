@@ -1,4 +1,6 @@
 import json
+import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 
@@ -6,87 +8,277 @@ STREAMS_URL = "https://iptv-org.github.io/api/streams.json"
 CHANNELS_URL = "https://iptv-org.github.io/api/channels.json"
 FEEDS_URL = "https://iptv-org.github.io/api/feeds.json"
 
-STREAM_TIMEOUT = 10
+STREAM_TIMEOUT = 8
+MAX_WORKERS = 20
+
+HINDI_CODES = {"hin"}
 
 # =========================================================
-# YOUR CHANNEL POLICY
+# ALLOWED NETWORKS / BRANDS
 # =========================================================
 
-ALLOWED_NETWORKS = {
-    "Sony",
-    "Star",
-    "Discovery",
-    "History TV18",
-    "Animal Planet",
+ALLOWED_NETWORK_KEYWORDS = {
+    "sony",
+    "star",
+    "zee",
+    "discovery",
+    "history tv18",
+    "history tv",
+    "animal planet",
 }
 
-# Explicitly reject these regardless of network
+# =========================================================
+# NEVER INCLUDE THESE
+# =========================================================
+
 EXCLUDED_KEYWORDS = {
     "news",
+    "news hd",
     "business",
+    "business news",
     "breaking news",
-    "politics",
     "financial news",
+    "politics",
+    "political",
+    "headline",
+    "headlines",
+    "live news",
+    "samachar",
+    "khabar",
+    "suddi",
+    "varta",
+    "24x7 news",
 }
 
-# Hindi ISO 639-3 code
-HINDI_CODE = "hin"
+# =========================================================
+# GENRE KEYWORDS
+# =========================================================
+
+SPORTS_KEYWORDS = {
+    "sports",
+    "sport",
+    "ten sports",
+    "sony sports",
+    "star sports",
+    "zee sports",
+}
+
+MOVIE_KEYWORDS = {
+    "movie",
+    "movies",
+    "cinema",
+    "max",
+    "pix",
+    "gold",
+    "gold hd",
+}
+
+FACTUAL_KEYWORDS = {
+    "discovery",
+    "discovery science",
+    "discovery turbo",
+    "animal planet",
+    "history tv18",
+    "history tv",
+    "science",
+    "turbo",
+    "investigation discovery",
+    "id ",
+}
+
+ENTERTAINMENT_KEYWORDS = {
+    "entertainment",
+    "sab",
+    "sony",
+    "star plus",
+    "star bharat",
+    "star utsav",
+    "zee tv",
+    "zee anmol",
+    "zee zing",
+}
 
 
 # =========================================================
-# STREAM CHECK
+# HELPERS
 # =========================================================
 
-def check_stream(url, user_agent=None, referrer=None):
+def normalize(value):
+    return re.sub(
+        r"\s+",
+        " ",
+        str(value or "").strip().lower()
+    )
+
+
+def combined_text(channel, stream, feed=None):
+    values = [
+        channel.get("name", ""),
+        channel.get("network", ""),
+        channel.get("alt_names", ""),
+        stream.get("title", ""),
+        feed.get("name", "") if feed else "",
+    ]
+
+    return normalize(" ".join(map(str, values)))
+
+
+def contains_any(text, keywords):
+    return any(
+        keyword in text
+        for keyword in keywords
+    )
+
+
+def is_excluded(channel, stream, feed=None):
+    text = combined_text(channel, stream, feed)
+
+    return contains_any(
+        text,
+        EXCLUDED_KEYWORDS
+    )
+
+
+def is_allowed_network(channel, stream):
+    text = normalize(
+        " ".join([
+            str(channel.get("name", "")),
+            str(channel.get("network", "")),
+            str(channel.get("alt_names", "")),
+            str(stream.get("title", "")),
+        ])
+    )
+
+    return contains_any(
+        text,
+        ALLOWED_NETWORK_KEYWORDS
+    )
+
+
+def is_hindi_feed(feed):
+    languages = feed.get("languages", [])
+
+    if isinstance(languages, str):
+        languages = [languages]
+
+    languages = {
+        normalize(language)
+        for language in languages
+    }
+
+    return bool(languages & HINDI_CODES)
+
+
+def get_genre(channel, stream, feed=None):
+    text = combined_text(channel, stream, feed)
+
+    if contains_any(text, SPORTS_KEYWORDS):
+        return "SPORTS"
+
+    if contains_any(text, MOVIE_KEYWORDS):
+        return "MOVIES"
+
+    if contains_any(text, FACTUAL_KEYWORDS):
+        return "FACTUAL & DOCUMENTARY"
+
+    return "ENTERTAINMENT"
+
+
+def channel_sort_key(item):
+    genre_order = {
+        "SPORTS": 1,
+        "MOVIES": 2,
+        "ENTERTAINMENT": 3,
+        "FACTUAL & DOCUMENTARY": 4,
+    }
+
+    return (
+        genre_order.get(item["genre"], 99),
+        normalize(item["name"]),
+        normalize(item["title"]),
+        item["url"],
+    )
+
+
+# =========================================================
+# STREAM TEST
+# =========================================================
+
+def check_stream(item):
+    url = item["url"]
+    user_agent = item.get("user_agent")
+    referrer = item.get("referrer")
 
     headers = {
-        "User-Agent": user_agent or "Mozilla/5.0"
+        "User-Agent": user_agent or (
+            "Mozilla/5.0 "
+            "(Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 "
+            "(KHTML, like Gecko) "
+            "Chrome/140.0 Safari/537.36"
+        ),
+        "Accept": "*/*",
+        "Connection": "keep-alive",
     }
 
     if referrer:
         headers["Referer"] = referrer
 
     try:
+        request = Request(
+            url,
+            headers=headers
+        )
 
-        request = Request(url, headers=headers)
+        with urlopen(
+            request,
+            timeout=STREAM_TIMEOUT
+        ) as response:
 
-        with urlopen(request, timeout=STREAM_TIMEOUT) as response:
-
-            if not (200 <= response.status < 400):
-                return False
-
-            content_type = response.headers.get(
-                "Content-Type", ""
-            ).lower()
-
-            data = response.read(8192)
-
-            if b"#EXTM3U" in data:
-                return True
-
-            if (
-                "mpegurl" in content_type
-                or "vnd.apple.mpegurl" in content_type
-                or "video/" in content_type
+            if not (
+                200 <= response.status < 400
             ):
-                return True
+                return None
 
-            return False
+            content_type = normalize(
+                response.headers.get(
+                    "Content-Type",
+                    ""
+                )
+            )
+
+            data = response.read(16384)
+
+            looks_like_hls = (
+                b"#EXTM3U" in data
+                or "mpegurl" in content_type
+                or "vnd.apple.mpegurl" in content_type
+            )
+
+            looks_like_video = (
+                "video/" in content_type
+            )
+
+            if looks_like_hls or looks_like_video:
+                return item
 
     except (
         URLError,
         HTTPError,
         TimeoutError,
-        OSError
+        OSError,
+        ValueError,
     ):
-        return False
+        pass
 
     except Exception:
-        return False
+        pass
+
+    return None
 
 
 # =========================================================
-# DOWNLOAD DATA
+# DOWNLOAD IPTv-ORG DATA
 # =========================================================
 
 print("Downloading iptv-org data...")
@@ -108,87 +300,34 @@ with urlopen(FEEDS_URL, timeout=30) as response:
 channel_map = {
     channel["id"]: channel
     for channel in channels
-    if "id" in channel
+    if channel.get("id")
 }
 
 feed_map = {
-    (feed.get("channel"), feed.get("id")): feed
+    (
+        feed.get("channel"),
+        feed.get("id")
+    ): feed
     for feed in feeds
-    if feed.get("channel") and feed.get("id")
+    if feed.get("channel")
+    and feed.get("id")
 }
 
 
 # =========================================================
-# HELPERS
+# FILTER BEFORE TESTING
 # =========================================================
 
-def normalize(text):
-    return " ".join(
-        str(text or "").lower().split()
-    )
-
-
-def is_news_channel(channel, stream):
-
-    values = [
-        channel.get("name", ""),
-        channel.get("network", ""),
-        stream.get("title", ""),
-    ]
-
-    text = normalize(" ".join(values))
-
-    return any(
-        keyword in text
-        for keyword in EXCLUDED_KEYWORDS
-    )
-
-
-def is_allowed_network(channel):
-
-    network = normalize(channel.get("network"))
-
-    name = normalize(channel.get("name"))
-
-    # Network-based matching
-    for allowed in ALLOWED_NETWORKS:
-
-        allowed_normalized = normalize(allowed)
-
-        if (
-            allowed_normalized in network
-            or allowed_normalized in name
-        ):
-            return True
-
-    return False
-
-
-def is_hindi_feed(feed):
-
-    languages = feed.get("languages", [])
-
-    return HINDI_CODE in languages
-
-
-# =========================================================
-# PLAYLIST
-# =========================================================
-
-playlist = ["#EXTM3U"]
-
+candidates = []
 seen = set()
 
-total_indian = 0
-total_allowed = 0
-total_hindi = 0
-total_1080p = 0
-total_working = 0
+stats = {
+    "indian": 0,
+    "allowed_network": 0,
+    "hindi": 0,
+    "1080p": 0,
+}
 
-
-# =========================================================
-# PROCESS STREAMS
-# =========================================================
 
 for stream in streams:
 
@@ -198,16 +337,10 @@ for stream in streams:
     if not channel_id or not url:
         continue
 
-
-    # -----------------------------------------------------
-    # CHANNEL
-    # -----------------------------------------------------
-
     channel = channel_map.get(channel_id)
 
     if not channel:
         continue
-
 
     # -----------------------------------------------------
     # INDIA
@@ -216,26 +349,29 @@ for stream in streams:
     if channel.get("country") != "IN":
         continue
 
-    total_indian += 1
-
+    stats["indian"] += 1
 
     # -----------------------------------------------------
-    # ALLOWED NETWORK
+    # ALLOWED NETWORKS
     # -----------------------------------------------------
 
-    if not is_allowed_network(channel):
+    if not is_allowed_network(
+        channel,
+        stream
+    ):
         continue
 
-    total_allowed += 1
-
+    stats["allowed_network"] += 1
 
     # -----------------------------------------------------
-    # REMOVE NEWS
+    # NEWS / BUSINESS / POLITICAL EXCLUSION
     # -----------------------------------------------------
 
-    if is_news_channel(channel, stream):
+    if is_excluded(
+        channel,
+        stream
+    ):
         continue
-
 
     # -----------------------------------------------------
     # FEED
@@ -244,12 +380,14 @@ for stream in streams:
     feed_id = stream.get("feed")
 
     feed = feed_map.get(
-        (channel_id, feed_id)
+        (
+            channel_id,
+            feed_id
+        )
     )
 
     if not feed:
         continue
-
 
     # -----------------------------------------------------
     # HINDI ONLY
@@ -258,44 +396,32 @@ for stream in streams:
     if not is_hindi_feed(feed):
         continue
 
-    total_hindi += 1
-
+    stats["hindi"] += 1
 
     # -----------------------------------------------------
     # 1080P ONLY
     # -----------------------------------------------------
 
-    if stream.get("quality") != "1080p":
+    if normalize(
+        stream.get("quality")
+    ) != "1080p":
         continue
 
-    total_1080p += 1
-
+    stats["1080p"] += 1
 
     # -----------------------------------------------------
-    # STREAM INFO
+    # DUPLICATES
     # -----------------------------------------------------
-
-    name = channel.get(
-        "name",
-        stream.get("title", "Unknown Channel")
-    )
-
-    title = stream.get("title")
 
     user_agent = stream.get("user_agent")
     referrer = stream.get("referrer")
-
-
-    # -----------------------------------------------------
-    # DUPLICATE PROTECTION
-    # -----------------------------------------------------
 
     unique_key = (
         channel_id,
         feed_id,
         url,
         user_agent,
-        referrer
+        referrer,
     )
 
     if unique_key in seen:
@@ -303,59 +429,182 @@ for stream in streams:
 
     seen.add(unique_key)
 
-
     # -----------------------------------------------------
-    # TEST STREAM
-    # -----------------------------------------------------
-
-    print(f"Testing Hindi 1080p: {name}")
-
-    if not check_stream(
-        url,
-        user_agent=user_agent,
-        referrer=referrer
-    ):
-        print(f"SKIPPED: {name}")
-        continue
-
-
-    print(f"WORKING Hindi 1080p: {name}")
-
-    total_working += 1
-
-
-    # -----------------------------------------------------
-    # DISPLAY NAME
+    # PREPARE ENTRY
     # -----------------------------------------------------
 
-    display_name = title or name
-
-    if "1080p" not in display_name.lower():
-        display_name += " [1080p]"
-
-    if "hindi" not in display_name.lower():
-        display_name += " [Hindi]"
-
-
-    # -----------------------------------------------------
-    # M3U
-    # -----------------------------------------------------
-
-    playlist.append(
-        f'#EXTINF:-1 group-title="India Hindi 1080p",{display_name}'
+    channel_name = (
+        channel.get("name")
+        or stream.get("title")
+        or "Unknown Channel"
     )
 
-    if user_agent:
+    title = (
+        stream.get("title")
+        or channel_name
+    )
+
+    genre = get_genre(
+        channel,
+        stream,
+        feed
+    )
+
+    candidates.append({
+        "channel_id": channel_id,
+        "feed_id": feed_id,
+        "name": channel_name,
+        "title": title,
+        "genre": genre,
+        "url": url,
+        "user_agent": user_agent,
+        "referrer": referrer,
+    })
+
+
+print()
+print("=" * 60)
+print("FILTER RESULTS")
+print("=" * 60)
+print(
+    f"Indian streams:            {stats['indian']}"
+)
+print(
+    f"Allowed network streams:   {stats['allowed_network']}"
+)
+print(
+    f"Hindi feeds:               {stats['hindi']}"
+)
+print(
+    f"Hindi 1080p candidates:    {stats['1080p']}"
+)
+print(
+    f"Streams to test:            {len(candidates)}"
+)
+print("=" * 60)
+
+
+# =========================================================
+# PARALLEL STREAM TESTING
+# =========================================================
+
+print()
+print(
+    f"Testing streams with "
+    f"{MAX_WORKERS} workers..."
+)
+
+working = []
+
+with ThreadPoolExecutor(
+    max_workers=MAX_WORKERS
+) as executor:
+
+    futures = {
+        executor.submit(
+            check_stream,
+            item
+        ): item
+        for item in candidates
+    }
+
+    for future in as_completed(futures):
+
+        item = futures[future]
+
+        try:
+            result = future.result()
+        except Exception:
+            result = None
+
+        if result:
+            print(
+                f"WORKING: "
+                f"{result['name']} "
+                f"[{result['genre']}]"
+            )
+
+            working.append(result)
+
+        else:
+            print(
+                f"DEAD: "
+                f"{item['name']}"
+            )
+
+
+# =========================================================
+# SORT
+# =========================================================
+
+working.sort(
+    key=channel_sort_key
+)
+
+
+# =========================================================
+# BUILD PLAYLIST
+# =========================================================
+
+playlist = [
+    "#EXTM3U"
+]
+
+current_genre = None
+
+genre_headers = {
+    "SPORTS": "SPORTS",
+    "MOVIES": "MOVIES",
+    "ENTERTAINMENT": "ENTERTAINMENT",
+    "FACTUAL & DOCUMENTARY": (
+        "FACTUAL & DOCUMENTARY"
+    ),
+}
+
+
+for item in working:
+
+    genre = item["genre"]
+
+    if genre != current_genre:
+
+        current_genre = genre
+
+        playlist.append("")
         playlist.append(
-            f'#EXTVLCOPT:http-user-agent={user_agent}'
+            f"# ===== {genre_headers[genre]} ====="
+        )
+        playlist.append("")
+
+    display_name = item["name"]
+
+    if "1080p" not in normalize(display_name):
+        display_name += " [1080p]"
+
+    if "hindi" not in normalize(display_name):
+        display_name += " [Hindi]"
+
+    playlist.append(
+        '#EXTINF:-1 '
+        f'group-title="{genre}",'
+        f'{display_name}'
+    )
+
+    if item["user_agent"]:
+        playlist.append(
+            "#EXTVLCOPT:http-user-agent="
+            + item["user_agent"]
         )
 
-    if referrer:
+    if item["referrer"]:
         playlist.append(
-            f'#EXTVLCOPT:http-referrer={referrer}'
+            "#EXTVLCOPT:http-referrer="
+            + item["referrer"]
         )
 
-    playlist.append(url)
+    playlist.append(
+        item["url"]
+    )
 
 
 # =========================================================
@@ -365,10 +614,14 @@ for stream in streams:
 with open(
     "playlist.m3u",
     "w",
-    encoding="utf-8"
-) as f:
+    encoding="utf-8",
+    newline="\n"
+) as file:
 
-    f.write("\n".join(playlist) + "\n")
+    file.write(
+        "\n".join(playlist)
+        + "\n"
+    )
 
 
 # =========================================================
@@ -377,13 +630,30 @@ with open(
 
 print()
 print("=" * 60)
-print("INDIA HINDI 1080P PLAYLIST")
+print("FINAL PLAYLIST")
 print("=" * 60)
 
-print(f"Indian streams found:       {total_indian}")
-print(f"Allowed network streams:   {total_allowed}")
-print(f"Hindi feeds:                {total_hindi}")
-print(f"Hindi 1080p streams:        {total_1080p}")
-print(f"Working Hindi 1080p:        {total_working}")
+print(
+    f"Working channels:          {len(working)}"
+)
 
+for genre in (
+    "SPORTS",
+    "MOVIES",
+    "ENTERTAINMENT",
+    "FACTUAL & DOCUMENTARY",
+):
+
+    count = sum(
+        1
+        for item in working
+        if item["genre"] == genre
+    )
+
+    print(
+        f"{genre:<28} {count}"
+    )
+
+print("=" * 60)
+print("playlist.m3u generated successfully.")
 print("=" * 60)
