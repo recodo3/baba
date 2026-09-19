@@ -32,6 +32,9 @@ https://cloudplay-sonyliv.pages.dev/max2.m3u8
 #EXTINF:-1 group-title="ramboHD",Sony Max HD
 https://cloudplay-sonyliv.pages.dev/maxhd.m3u8
 
+#EXTINF:-1 group-title="ramboHD",Zee Cinema HD
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8
+
 #EXTINF:-1 group-title="ramboHD",History TV
 https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungindia-historychannelhindi-samsungin/playlist.m3u8
 
