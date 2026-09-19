@@ -28,7 +28,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: "pip"
 
       - name: Generate playlist
         run: python update.py
@@ -41,21 +40,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Save the newly generated playlist outside Git's working tree.
           cp playlist.m3u /tmp/generated-playlist.m3u
 
-          # Get the latest repository state.
           git fetch origin main
-
-          # Start from the latest remote main.
           git reset --hard origin/main
 
-          # Put our newly generated playlist on top.
           cp /tmp/generated-playlist.m3u playlist.m3u
 
           git add playlist.m3u
 
-          # Nothing changed.
           if git diff --cached --quiet; then
             echo "Playlist has not changed."
             exit 0
@@ -63,7 +56,6 @@ jobs:
 
           git commit -m "Update IPTV playlist"
 
-          # Retry in case main changes while this job is running.
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then
               echo "Playlist pushed successfully."
@@ -72,10 +64,9 @@ jobs:
 
             echo "Push failed. Refreshing main and retrying..."
 
-            git fetch origin main
-
             cp playlist.m3u /tmp/generated-playlist.m3u
 
+            git fetch origin main
             git reset --hard origin/main
 
             cp /tmp/generated-playlist.m3u playlist.m3u
