@@ -5,8 +5,6 @@ https://3f56f997.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3
 https://mumbai-edge.smartplaytv.in/10TV/index.m3u8
 #EXTINF:-1 group-title="IPTV",20 Minutes TV [1080p]
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
-#EXTINF:-1 group-title="IPTV",22Scope News [1080p]
-https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8
 #EXTINF:-1 group-title="IPTV",24 Hour Free Movies [720p]
 https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8
 #EXTINF:-1 group-title="IPTV",30A Darcizzle Offshore [720p]
@@ -20,7 +18,7 @@ https://30a-tv.com/feeds/xodglobal/30atv.m3u8
 #EXTINF:-1 group-title="IPTV",30A Luxe Life Discovered [720p]
 https://30a-tv.com/feeds/vidaa/luxelife.m3u8
 #EXTINF:-1 group-title="IPTV",30A Music [720p]
-https://30a-tv.com/music.m3u8
+https://30a-tv.com/feeds/ceftech/30atvmusic.m3u8
 #EXTINF:-1 group-title="IPTV",30A Ridiculous TV [720p]
 https://30a-tv.com/feeds/720p/63.m3u8
 #EXTINF:-1 group-title="IPTV",30A Sidewalks [720p]
@@ -50,7 +48,7 @@ https://cdn.pishow.tv/ott/live/1211/master.m3u8
 #EXTINF:-1 group-title="IPTV",9X Jalwa [1080p]
 https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8
 #EXTINF:-1 group-title="IPTV",9X Jhakaas [1080p]
-https://wiselp.wiseplayout.com/9X_Jhakaas/master.m3u8
+https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",9X Tashan [1080p]
 https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",9XM [1080p]
@@ -110,7 +108,7 @@ https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master.m3u8
 #EXTINF:-1 group-title="IPTV",ABP News [1080p]
 https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8
 #EXTINF:-1 group-title="IPTV",ACC Digital Network [1080p]
-https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
+https://d53csymoczzde.cloudfront.net/ACC_Digital_Network.m3u8
 #EXTINF:-1 group-title="IPTV",ACC Network [720p]
 http://23.239.31.26:8989/accnetwork/index.m3u8
 #EXTINF:-1 group-title="IPTV",Access Humboldt [1080p]
@@ -172,7 +170,7 @@ https://livetv.tarangplus.in/alankar-origin/live/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Aliento Vision [720p]
 https://627bb251f23c7.streamlock.net:444/Alientoenvivo/Alientoenvivo/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Alkarma TV Australia [1080p]
-https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8
+https://5a8308add0b31.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Alkarma TV Family [1080p]
 https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaNA2.smil/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Alkarma TV Middle East [1080p]
@@ -208,7 +206,7 @@ http://41.205.93.154/AMC/index.m3u8
 #EXTINF:-1 group-title="IPTV",AMC en Espanol [720p]
 https://pb-fmbyorn1d0n1n.akamaized.net/v1/amc_amcespanol_3/samsungheadend_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",AMC Latin America [1080p]
-http://15.204.246.24:8080/AMCHD/index.m3u8
+http://138.121.15.230:9002/AMC/index.m3u8
 #EXTINF:-1 group-title="IPTV",America's Test Kitchen [1080p]
 https://amg01420-americastestkitchen-amg01420c1-xumo-us-878.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",America's Voice [720p]
@@ -236,7 +234,7 @@ https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8
 #EXTINF:-1 group-title="IPTV",Andromeda [720p]
 https://jmp2.uk/plu-60802d37ee238e0007c94e64.m3u8
 #EXTINF:-1 group-title="IPTV",Angel TV [720p]
-https://janya-digimix.akamaized.net/vglive-sk-374850/america/ngrp:angelamerica_all/playlist.m3u8
+https://janya-digimix.akamaized.net/vglive-sk-213167/arabia/ngrp:angelarabia_all/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Anger Management Channel [1080p]
 https://amg00353-lionsgatestudio-angermgmt-samsungau-o9jg9.amagi.tv/playlist/amg00353-lionsgatestudio-angermgmt-samsungau/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Animation+ [1080p]
@@ -248,13 +246,15 @@ https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Antenne Reunion [720p]
 https://live-antenne-reunion.zeop.tv/live/c3eds/antreunihd/hls_fta/antreunihd.m3u8?location=ZEOP01
 #EXTINF:-1 group-title="IPTV",Antiques Road Trip [1080p]
-https://amg02333-pbs-amg02333c1-samsung-au-1253.playouts.now.amagi.tv/PBSD-AntiquesRoadTripSF-samsung/playlist.m3u8
+https://amg02333-pbs-amg02333c5-samsung-nz-2440.playouts.now.amagi.tv/PBSD-AntiquesRoadTripSF-samsung/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Antiques Roadshow UK [1080p]
 https://bbc-antiquesroadshowuk-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Are We There Yet? [1080p]
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-arewethereyetnl-samsungnl/playlist.m3u8
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-arewethereyetse-samsungse/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",ARTFLIX Movie Classics [720p]
-https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
+https://amogonetworx-artflix-1-se.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",ARTN TV [1080p]
+https://streamer1.connectto.com/ARTN_mobile/index.m3u8
 #EXTINF:-1 group-title="IPTV",Asian Culture TV [1080p]
 https://cdn.vegasplus.us/vegas/actv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Asian News [1080p]
@@ -294,9 +294,9 @@ https://a-cdn.klowdtv.com/live1/awe_720p/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",AWE International [720p]
 https://a-cdn.klowdtv.com/live1/aweint/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",AWE Plus [720p]
-https://aweencore-vizio.amagi.tv/playlist.m3u8
+https://a-cdn.herringnetwork.com/affiliate/awee/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",AXN Latin America [1080p]
-http://15.204.246.24:8080/AXNHD/index.m3u8
+http://138.121.15.230:9002/AXN/index.m3u8
 #EXTINF:-1 group-title="IPTV",AXS TV [720p]
 http://23.239.31.26:8989/axstv/index.m3u8
 #EXTINF:-1 group-title="IPTV",B4U Bhojpuri [1080p]
@@ -309,8 +309,6 @@ http://168.228.44.241:9997/play/a07u/index.m3u8
 https://d2ah48mnofquik.cloudfront.net/Backstage.m3u8
 #EXTINF:-1 group-title="IPTV",Balle Balle [720p]
 https://mcncdndigital.com/balleballetv/index.m3u8
-#EXTINF:-1 group-title="IPTV",Bansal News [720p]
-https://8yzmq2gbdvax-hls-live.wmncdn.net/bansalnewstv1/live1.stream/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Bark TV [1080p]
 https://bbb-barkt-streamstak.otteravision.com/bbb/barkt/barkt.m3u8
 #EXTINF:-1 group-title="IPTV",Baywatch [1080p]
@@ -332,7 +330,7 @@ http://media4.tripsmarter.com:1935/LiveTV/BTVHD/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",beIN SPORTS XTRA [1080p]
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",beIN SPORTS XTRA en Espanol [1080p]
-https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
+https://bein-esp-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",BEK News [720p]
 https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEeast.smil/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",BEK Sports [720p]
@@ -368,9 +366,7 @@ https://blacknewschannel-xumo-us.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Blaze Live [720p]
 https://jmp2.uk/plu-5e46fba0c43b0d00096e5ac1.m3u8
 #EXTINF:-1 group-title="IPTV",Bloomberg Originals [1080p]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
-#EXTVLCOPT:http-referrer=https://www.bloomberg.com/originals
-https://www.bloomberg.com/media-manifest/streams/originals-global.m3u8
+https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnT3JpZ2luYWxzX0hMUw/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Bloomberg TV [2160p]
 https://66e4bbba.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnVFZQbHVzX0hMUw/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",BMC-HD TV [720p]
@@ -448,13 +444,13 @@ https://fastly.live.brightcove.com/6380396819112/us-east-1/734546207001/eyJhbGci
 #EXTINF:-1 group-title="IPTV",CBS [1080p]
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-kirobreaking-ono/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",CBS News 24/7 [720p]
-https://cbsn-us-vtt.cbsnstream.cbsnews.com/out/v1/ef868690d34144509eda696884bf1619/master.m3u8
+https://jmp2.uk/plu-6231ede1be5b460007f91bc1.m3u8
 #EXTINF:-1 group-title="IPTV",CBS News Baltimore [720p]
 https://lineup.cbsivideo.com/playout/8877a7d5-b094-4ac8-bc72-75a5fed68e5b/index.m3u8
 #EXTINF:-1 group-title="IPTV",CBS News Bay Area [720p]
 https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/master.m3u8
 #EXTINF:-1 group-title="IPTV",CBS News Boston [720p]
-https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8
+https://dai.google.com/linear/hls/event/dHA193vxQ_WqZNVoC-W5MA/master.m3u8
 #EXTINF:-1 group-title="IPTV",CBS News Chicago [720p]
 https://cbsn-chi.cbsnstream.cbsnews.com/out/v1/b2fc0d5715d54908adf07f97d2616646/master.m3u8
 #EXTINF:-1 group-title="IPTV",CBS News Colorado [720p]
@@ -464,7 +460,7 @@ https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/
 #EXTINF:-1 group-title="IPTV",CBS News Los Angeles [720p]
 https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
 #EXTINF:-1 group-title="IPTV",CBS News Miami [720p]
-https://lineup.cbsivideo.com/playout/8796731e-7ce7-4bcf-bb04-41ef5a969c62/master.m3u8
+https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8
 #EXTINF:-1 group-title="IPTV",CBS News Minnesota [720p]
 https://cbsn-min.cbsnstream.cbsnews.com/out/v1/76518f06941246ba810c8d175600bf74/master.m3u8
 #EXTINF:-1 group-title="IPTV",CBS News New York [720p]
@@ -500,7 +496,7 @@ https://chardikalanorthamerica.gigabitcdn.net/in-chardikala/chardikala-north-usa
 #EXTINF:-1 group-title="IPTV",Charge! [1080p]
 https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8
 #EXTINF:-1 group-title="IPTV",Cheddar News [1080p]
-https://wurlcheddar.global.transmit.live/hls/689ceac9301c34d3919676f3/v1/Cheddar/samsung_us/latest/main/hls/playlist.m3u8
+https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Chef Champion [720p]
 https://rpn.bozztv.com/gusa/gusa-chefchampion/index.m3u8
 #EXTINF:-1 group-title="IPTV",Chef Roc Show [720p]
@@ -508,7 +504,7 @@ https://rpn.bozztv.com/gusa/gusa-chefrock/index.m3u8
 #EXTINF:-1 group-title="IPTV",Choppertown [720p]
 https://linear-11.frequency.stream/dist/glewedtv/11/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Christian Youth Channel CYC [1080p]
-http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
+http://media.smc-host.com:1935/cycnow.com/cyc2/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Cine Familiar [1080p]
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/cinefamiliar.stream/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Cine Hispano [1080p]
@@ -524,7 +520,7 @@ https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Cine Western [1080p]
 https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Cinecanal [1080p]
-http://15.204.246.24:8080/CinecanalHD/index.m3u8
+http://138.121.15.230:9002/CINECANAL/index.m3u8
 #EXTINF:-1 group-title="IPTV",Cinemax Classics [1080p]
 http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
 #EXTINF:-1 group-title="IPTV",Cinemax Hits [1080p]
@@ -532,7 +528,7 @@ http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
 #EXTINF:-1 group-title="IPTV",CinePride [720p]
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2223
 #EXTINF:-1 group-title="IPTV",Circle [1080p]
-https://circle-samsung.amagi.tv/playlist.m3u8
+https://circle-klowdtv.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",City of Fort Pierce [720p]
 https://edge-f.swagit.com/live/fortpiercefl/live-1-a/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",City of Pompano Beach [720p]
@@ -569,8 +565,8 @@ https://jmp2.uk/plu-5f68f53eb1e5800007390bf8.m3u8
 https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/costamesa/G0075_002/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",CNBC [720p]
 http://4.30.180.36:8420/cnbc/index.m3u8?token=test
-#EXTINF:-1 group-title="IPTV",CNBC Awaaz [1080p]
-https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 group-title="IPTV",CNBC Bajar [1080p]
+https://n18syndication.akamaized.net/bpk-tv/CNBC_Bazaar_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="IPTV",CNBC TV18 [1080p]
 https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8
 #EXTINF:-1 group-title="IPTV",CNBC TV18 Prime HD [1080p]
@@ -590,9 +586,9 @@ https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Colors Tamil [720p]
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Comedy Central Latin America [1080p]
-http://15.204.246.24:8080/ComedyCentralHD/index.m3u8
+http://190.93.224.42/COMEDY-CENTRAL/index.m3u8
 #EXTINF:-1 group-title="IPTV",Comedy Dynamics [1080p]
-https://d3a5mry3t5fzw9.cloudfront.net/playlist.m3u8
+https://linear-903.frequency.stream/dist/xumo/903/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Comercio TV [1080p]
 http://45.70.201.81:8000/play/a014/index.m3u8
 #EXTINF:-1 group-title="IPTV",Comet [1080p]
@@ -606,13 +602,13 @@ https://langleyproductions-cops-2-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Cornerstone TV [720p]
 https://2-fss-1.themediacdn.com/pl_122/206280-3059514-1/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Court TV [1080p]
-https://pb-2rv53xe17yzvq.akamaized.net/Court_TV_US.m3u8
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Create [1080p]
 https://create.lls.pbs.org/index.m3u8
 #EXTINF:-1 group-title="IPTV",Crime + Investigation [720p]
 http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/index.m3u8
 #EXTINF:-1 group-title="IPTV",Crime 360 [720p]
-https://jmp2.uk/plu-657880c46e4f6a00087404d0.m3u8
+https://jmp2.uk/plu-6578875614fbe400086e319e.m3u8
 #EXTINF:-1 group-title="IPTV",Crunchyroll [720p]
 https://jmp2.uk/plu-65652f7fc0fc88000883537a.m3u8
 #EXTINF:-1 group-title="IPTV",CSat TV [1080p]
@@ -684,7 +680,7 @@ http://138.121.15.230:9002/DEPELICULA/index.m3u8
 #EXTINF:-1 group-title="IPTV",Deadly Women [1080p]
 https://d1mgh147xpmgs8.cloudfront.net/DeadlyWomen_GB.m3u8
 #EXTINF:-1 group-title="IPTV",Deal or No Deal [1080p]
-https://amg00627-amg00627c21-samsung-nz-3876.playouts.now.amagi.tv/playlist.m3u8
+https://amg00627-banijaygroup-dealornodeal-samsungau-si7xg.amagi.tv/playlist/amg00627-banijaygroup-dealornodeal-samsungau/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Degrassi [720p]
 https://d3537vnymvfque.cloudfront.net/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Denver 8 TV [720p]
@@ -699,8 +695,6 @@ https://livestream.unlimitedcdn.com/agm-dc/desi-channel/index.m3u8
 https://amg00353-amg00353c40-xumo-us-4839.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Detective Conan [720p]
 https://jmp2.uk/plu-62f3e8ad2a8e8000077b013d.m3u8
-#EXTINF:-1 group-title="IPTV",DHE [1080p]
-http://15.204.246.24:8080/DHEHD/index.m3u8
 #EXTINF:-1 group-title="IPTV",Dhoom Music [720p]
 https://cdn.pishow.tv/ott/live/1456/master.m3u8
 #EXTINF:-1 group-title="IPTV",Disney Channel [720p]
@@ -718,29 +712,31 @@ https://stream.diyatvinc.com/diya.m3u8
 #EXTINF:-1 group-title="IPTV",DKN [1080p]
 https://video.oct.dc.gov/out/u/DKN.m3u8
 #EXTINF:-1 group-title="IPTV",Doctor Who Classic [1080p]
-https://bbc-classicdrwho-1-us.roku.wurl.tv/playlist.m3u8
+https://aegis-cloudfront-1.tubi.video/34cd3ae2-bb20-4594-af20-01f241a525ba/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",DocuBay TV [1080p]
 https://cc-mgr91yrk4pehy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mgr91yrk4pehy/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Documentary+ [1080p]
-https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8
+https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Dog the Bounty Hunter [1080p]
 https://amg00276-amg00276c11-samsung-gb-3484.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Dog Whisperer [1080p]
 https://pb-ffpxvjshv4rxx.akamaized.net/Dog_Whisperer_with_Cesar_Millan.m3u8
 #EXTINF:-1 group-title="IPTV",Dove Channel [1080p]
-https://d2v2e5kw14egus.cloudfront.net/playlist.m3u8
+https://linear-896.frequency.stream/dist/cineverse/896/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Dr. Gene Scott [1080p]
 https://wescottcc.piksel.tech/hls/live/2041478/adp/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",DraftKings Network [1080p]
-https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8
+https://d2obyvq5go60aw.cloudfront.net/DraftKings_Network.m3u8
 #EXTINF:-1 group-title="IPTV",DreamWorks Channel Latin America [1080p]
 http://138.121.15.230:9002/DREAMWORKS/index.m3u8
 #EXTINF:-1 group-title="IPTV",DroneTV [1080p]
 https://airvuz-dronetv-1-us.ohlscdn.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Dry Bar Comedy+ [720p]
-https://drybar-drybarcomedy-1-us.samsung.wurl.tv/playlist.m3u8
+https://drybar-drybarcomedy-1-au.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",DSports [720p]
+http://15.204.146.163:8002/play/a00g/index.m3u8
 #EXTINF:-1 group-title="IPTV",Duck Dynasty [1080p]
-https://amg00276-amg00276c2-samsung-gb-3485.playouts.now.amagi.tv/playlist.m3u8
+https://aegis-cloudfront-1.tubi.video/ae3cd8ce-3c41-452b-92a0-78fdb3c5b855/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Duck Hunting TV [1080p]
 https://main.duckhunting.playout.vju.tv/duckhuntingtv/main.m3u8
 #EXTINF:-1 group-title="IPTV",Dungeon TV [720p]
@@ -754,7 +750,7 @@ https://xumo-xumoent-vc-117-a3ga4.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1 group-title="IPTV",E! Latin America [1080p]
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/entertainment.stream/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Ebony TV by Lionsgate [1080p]
-https://pb-6csswagmy4nat.akamaized.net/Ebony_TV_by_Lionsgate.m3u8
+https://aegis-cloudfront-1.tubi.video/a0ad4b53-ab3a-48dd-be12-bc7f533c372c/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",EBS [1080p]
 https://rpn.bozztv.com/ebstv/ebstv/index.m3u8
 #EXTINF:-1 group-title="IPTV",EBS Cinema [720p]
@@ -774,7 +770,7 @@ https://live-bangla.akamaized.net/liveabr/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Entertainment Tonight [1080p]
 https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8
 #EXTINF:-1 group-title="IPTV",EntrepreneurTV [720p]
-https://a-cdn.klowdtv.com/live3/entrepreneurtv_720p/playlist.m3u8
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2506
 #EXTINF:-1 group-title="IPTV",Epic Bharat [1080p]
 https://epiconvh.akamaized.net/live/nazara/master.m3u8
 #EXTINF:-1 group-title="IPTV",Epic Bhojpuri [1080p]
@@ -796,9 +792,9 @@ http://41.205.93.154/ESPNNEWS/index.m3u8
 #EXTINF:-1 group-title="IPTV",ESPNU [720p]
 http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 #EXTINF:-1 group-title="IPTV",Estrella Games [1080p]
-https://estrella-games-oando.amagi.tv/playlist.m3u8
+https://amg00567-amg00567c1-firetv-us-4124.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Estrella News [1080p]
-https://estrella-news-oando.amagi.tv/playlist.m3u8
+https://amg00567-estrellamedia-estrellanews-distrotv-ddste.amagi.tv/playlist/amg00567-estrellamedia-estrellanews-distrotv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Estrella TV [1080p]
 https://estrellatv-oando.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",ETV Beats [1080p]
@@ -812,19 +808,19 @@ https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",ETV News [1080p]
 https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Euronews English [720p]
-https://jmp2.uk/plu-61de96114757070008d33cae.m3u8
+https://jmp2.uk/plu-61de90a47365340007f77c27.m3u8
 #EXTINF:-1 group-title="IPTV",Euronews French [720p]
-https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25026/index.m3u8
+https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Euronews German [720p]
-https://575b7833.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0RldXRzY2hfSExT/playlist.m3u8
+https://jmp2.uk/plu-6639d7d4b18d700008da5316.m3u8
 #EXTINF:-1 group-title="IPTV",Euronews Greek [720p]
 https://cdn-euronews.akamaized.net/live/eds/euronews-el/25068/index.m3u8
 #EXTINF:-1 group-title="IPTV",Euronews Hungarian [720p]
 https://cdn-euronews.akamaized.net/live/eds/euronews-hu/25075/index.m3u8
 #EXTINF:-1 group-title="IPTV",Euronews Italian [720p]
-https://acb6ca89.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0l0YWxpYW5vX0hMUw/playlist.m3u8
+https://jmp2.uk/plu-61b86ea479a4390007c6d5fc.m3u8
 #EXTINF:-1 group-title="IPTV",Euronews Portuguese [720p]
-https://6e52fb8b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c1BvcnR1Z3Vlc19ITFM/playlist.m3u8
+https://jmp2.uk/plu-619e6614c9d9650007a2b171.m3u8
 #EXTINF:-1 group-title="IPTV",Euronews Russian [1080p]
 http://str2.iptvhd.ru:8080/Euronews/index.m3u8
 #EXTINF:-1 group-title="IPTV",Euronews Spanish [1080p]
@@ -832,11 +828,11 @@ https://iptv.bitred.cl/euronews/index.m3u8
 #EXTINF:-1 group-title="IPTV",Evandis Gospel TV [1080p]
 https://evandis.streamakaci.tv/str_evandis_evandis/str_evandis_multi/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",EWTN [720p]
-https://cdn3.wowza.com/1/QjRzVXJtVml5SUVx/WGJRSWxz/hls/live/playlist.m3u8
+https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Extrema TV [720p]
 http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",FailArmy [720p]
-https://failarmy-international-gb.samsung.wurl.tv/playlist.m3u8
+https://failarmy-international-dk.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Faith TV [1080p]
 https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithTV.smil/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Fakt Marathi [720p]
@@ -857,6 +853,8 @@ https://d2y1l0qikd751h.cloudfront.net/Fear_Factor.m3u8
 https://edge-f.swagit.com/live/fernandinabeachfl/live-1-a/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Fierro a Fondo TV [1080p]
 http://45.70.201.81:8000/play/a00x/index.m3u8
+#EXTINF:-1 group-title="IPTV",FilAmTV Network [1080p]
+https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",FilmRise Anime [720p]
 https://dvu7aia8rjlfm.cloudfront.net/master.m3u8
 #EXTINF:-1 group-title="IPTV",FilmRise Classic TV [720p]
@@ -874,7 +872,7 @@ https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playl
 #EXTINF:-1 group-title="IPTV",FNX [1080p]
 https://fnx.lls.pbs.org/index.m3u8
 #EXTINF:-1 group-title="IPTV",Fox [1080p]
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-kriv-lgus/playlist.m3u8
+https://linear-688.frequency.stream/dist/stirr/688/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Fox Deportes [720p]
 http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
 #EXTINF:-1 group-title="IPTV",Fox News Channel [720p]
@@ -888,7 +886,7 @@ http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 #EXTINF:-1 group-title="IPTV",Fox Weather [1080p]
 https://pb-hum8cczphcrpf.akamaized.net/FOX_Weather.m3u8
 #EXTINF:-1 group-title="IPTV",France 24 [1080p]
-https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:-1 group-title="IPTV",France 3 [1080p]
 http://5.180.164.197:8080/FRANCE3/index.m3u8
 #EXTINF:-1 group-title="IPTV",Francophonie24 [1080p]
@@ -908,19 +906,19 @@ https://1593604785.rsc.cdn77.org/FTF/FTF_SCTE.m3u8
 #EXTINF:-1 group-title="IPTV",Fubo Sports Network [1080p]
 https://aegis-cloudfront-1.tubi.video/c2ac89da-5c69-439e-b85d-d87de0548b54/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Fun Roads [720p]
-https://a-cdn.klowdtv.com/live3/funroads_720p/playlist.m3u8
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=978
 #EXTINF:-1 group-title="IPTV",Fuse [1080p]
 http://23.237.104.106:8080/USA_FUSE/index.m3u8
 #EXTINF:-1 group-title="IPTV",FX [720p]
 http://4.30.180.36:8420/fx/index.m3u8?token=test
 #EXTINF:-1 group-title="IPTV",FX Latin America [1080p]
-http://15.204.246.24:8080/FXHD/index.m3u8
+http://181.119.66.28:8081/FX-HD/index.m3u8
 #EXTINF:-1 group-title="IPTV",Galavision [1080p]
-https://streaming-live-fcdn.api.prd.univisionnow.com/galawest/galawest.isml/hls/galawest.m3u8
+https://streaming-live-fcdn.api.prd.univisionnow.com/galaeast/galaeast.isml/hls/galaeast.m3u8
 #EXTINF:-1 group-title="IPTV",Galxy TV [720p]
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2230
 #EXTINF:-1 group-title="IPTV",Game Show Central [720p]
-https://pb-bunear28tuvaw.akamaized.net/v1/gsn_gameshowchannnel_1/samsungheadend_us/latest/main/hls/playlist.m3u8
+https://jmp2.uk/plu-5e54187aae660e00093561d6.m3u8
 #EXTINF:-1 group-title="IPTV",Game Show Network [720p]
 https://a-cdn.klowdtv.com/live2/gsn_720p/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Gangaur TV [1080p]
@@ -952,7 +950,7 @@ https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 group-title="IPTV",Golazo Network [720p]
 https://jmp2.uk/plu-63a0e33a45264d000850ed7e.m3u8
 #EXTINF:-1 group-title="IPTV",Golf Channel Latin America [1080p]
-http://15.204.246.24:8080/GolfChannelHD/index.m3u8
+http://72.1.184.5:8089/play/a0cw/index.m3u8
 #EXTINF:-1 group-title="IPTV",Gong [1080p]
 https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
 #EXTINF:-1 group-title="IPTV",Good News Today [720p]
@@ -976,7 +974,7 @@ https://a-cdn.klowdtv.com/live2/greattv_720p/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Greater Love TV [720p]
 https://rpn.bozztv.com/dvrfl04/itv04019/index.m3u8
 #EXTINF:-1 group-title="IPTV",Grit Xtra [1080p]
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-gritxtra-tablo/playlist.m3u8
+https://aegis-cloudfront-1.tubi.video/3bda1ff3-ae32-45ab-ad49-f5e206511a70/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",GTC News [1080p]
 https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/921cca59-daee-4f89-8c38-7ffe8de44f4c/index.m3u8
 #EXTINF:-1 group-title="IPTV",GTC Punjabi [1080p]
@@ -1030,7 +1028,7 @@ http://138.121.15.230:9002/HISTORY-2/index.m3u8
 #EXTINF:-1 group-title="IPTV",History Asia [720p]
 https://freem3u.xyz/api/live/play.m3u8?vid=9856
 #EXTINF:-1 group-title="IPTV",History Latin America [1080p]
-http://15.204.246.24:8080/HistoryHD/index.m3u8
+http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
 #EXTINF:-1 group-title="IPTV",History TV18 [1080p]
 https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",HMI PROMZ NEWS [720p]
@@ -1041,14 +1039,12 @@ https://livefta.malimarcdn.com/ftaedge00/hmongstartv.sdp/playlist.m3u8
 https://livefta.malimarcdn.com/ftaedge00/cvabroadcasting.stream/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",HMTV [720p]
 https://cdn.pishow.tv/ott/live/280/master.m3u8
-#EXTINF:-1 group-title="IPTV",Hola! TV Latin America [1080p]
-http://15.204.246.24:8080/HOLATVHD/index.m3u8
 #EXTINF:-1 group-title="IPTV",HollyWire [720p]
-https://di1slo8304ver.cloudfront.net/playlist.m3u8
+https://bozztv.com/hwotta/playlist/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Home.Made.Nation [720p]
-https://jmp2.uk/plu-5dc1cb279c91420009db261d.m3u8
+https://d1kgo9l74vimu0.cloudfront.net/v1/aenetworks_ae_1/samsungheadend_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Homes Under Hammer [720p]
-https://all3media-homes-under-the-hammer-1-au.samsung.wurl.tv/playlist.m3u8
+https://all3media-homes-under-the-hammer-1-dk.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Hope Channel Inter-America English [1080p]
 https://jstre.am/live/jsl:UP9KAdlVrm8.m3u8
 #EXTINF:-1 group-title="IPTV",Hope Channel International [1080p]
@@ -1061,8 +1057,6 @@ https://jmp2.uk/plu-6036e6e7ac69c400072afca2.m3u8
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1us/master.m3u8
 #EXTINF:-1 group-title="IPTV",HSN2 [720p]
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn2us/master.m3u8
-#EXTINF:-1 group-title="IPTV",HSTV [720p]
-https://live.castmaxcloud.com/live/hstv.m3u8
 #EXTINF:-1 group-title="IPTV",HTV 1 Houston Television [720p]
 https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-a/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",HTV 2 Houston Television [720p]
@@ -1075,8 +1069,6 @@ https://dos35knl8v49a.cloudfront.net/v1/food/samsungheadend_us/latest/main/hls/p
 https://icchls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="IPTV",IFC [1080p]
 http://23.237.104.106:8080/USA_IFC/index.m3u8
-#EXTINF:-1 group-title="IPTV",ILTV [720p]
-https://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Impact Network [720p]
 https://edge1.lifestreamcdn.com/live/impactroku1/index.m3u8
 #EXTINF:-1 group-title="IPTV",Impossible Quiz Show [1080p]
@@ -1086,7 +1078,7 @@ https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc4us/master.m3u8
 #EXTINF:-1 group-title="IPTV",India Daily Live [1080p]
 https://indiadaily.ottlive.co.in/indiadailylive/index.m3u8
 #EXTINF:-1 group-title="IPTV",India Today [720p]
-https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-293160/master.m3u8
+https://amg00644-amg00644c1-ondemandkorea-amesia-10266.playouts.now.amagi.tv/playlist/amg00644-tvtodaynetworkltdfast-indiatoday-ondemandkoreaamesia/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",India TV [720p]
 https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8
 #EXTINF:-1 group-title="IPTV",India TV Aap Ki Adalat [1080p]
@@ -1098,7 +1090,7 @@ https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8
 #EXTINF:-1 group-title="IPTV",INews [720p]
 https://cdn.pishow.tv/ott/live/411/master.m3u8
 #EXTINF:-1 group-title="IPTV",Inside Crime [1080p]
-https://aenetworks-insidecrime-rakuten.amagi.tv/playlist.m3u8
+https://amg00841-aenetworksukane-insidecrime-samsunguk-o968i.amagi.tv/playlist/amg00841-aenetworksukane-insidecrime-samsunguk/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Into Crime [1080p]
 https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",InTouch+ [1080p]
@@ -1150,7 +1142,7 @@ https://server.thelegitpro.in/kalingatv/kalingatv/index.m3u8
 #EXTINF:-1 group-title="IPTV",Kaloopy TV [1080p]
 https://streamingserver000.viewtv.cloud/VIEWTVNETWORK-KALOOPY/index.m3u8
 #EXTINF:-1 group-title="IPTV",Kartoon Channel! [1080p]
-https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8
+https://hlspackager.akamaized.net/live/DB/KARTOON_CHANNEL/HLS/KARTOON_CHANNEL.m3u8
 #EXTINF:-1 group-title="IPTV",Kashish News [720p]
 https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8
 #EXTINF:-1 group-title="IPTV",Kaumudy TV [720p]
@@ -1254,8 +1246,6 @@ https://d3j95sejv6mybj.cloudfront.net/Lucky_Dog.m3u8
 http://99.27.51.147:8080/M6/index.m3u8
 #EXTINF:-1 group-title="IPTV",MagellanTV Now [1080p]
 https://amg00376-magellan-amg00376c5-samsung-nz-1714.playouts.now.amagi.tv/playlist/amg00376-magellantv-magellantvnowww-samsungnz/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Mahaa Bhakti [1080p]
-https://mumbai-edge.smartplaytv.in/MahaBhakthi/index.m3u8
 #EXTINF:-1 group-title="IPTV",Mahaa Max [1080p]
 https://mumbai-edge.smartplaytv.in/MahaMax/index.m3u8
 #EXTINF:-1 group-title="IPTV",Mahaa News [1080p]
@@ -1319,7 +1309,7 @@ http://4.30.180.36:8420/metv/index.m3u8?token=test
 #EXTINF:-1 group-title="IPTV",Mezzo [1080p]
 http://str2.iptvhd.ru:8080/Mezzo_HD/index.m3u8
 #EXTINF:-1 group-title="IPTV",Mezzo Live [1080p]
-http://str2.iptvhd.ru:8080/mezzo_live_hd/index.m3u8
+http://stream.mcquack.net/276/index.m3u8
 #EXTINF:-1 group-title="IPTV",Mh 1 Music [720p]
 https://livestream.jswk.online/playlisttest/live/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Midnight Pulp [1080p]
@@ -1339,6 +1329,8 @@ https://all3media-midsomer-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Mirror Now [720p]
 #EXTVLCOPT:http-referrer=https://www.timesnownews.com/
 https://dai.google.com/linear/hls/event/ClPOullTQky5vGPf7fMZ8g/master.m3u8
+#EXTINF:-1 group-title="IPTV",Mission TV [1080p]
+https://6096a9cf11ae5.streamlock.net:1943/live/missiontv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",MK Six [720p]
 https://cdn.pishow.tv/ott/live/1253/master.m3u8
 #EXTINF:-1 group-title="IPTV",MLB [1080p]
@@ -1346,13 +1338,11 @@ https://pb-2y9ox4r1fy550.akamaized.net/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",MLB Strike Zone [720p]
 http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8
 #EXTINF:-1 group-title="IPTV",MNT [1080p]
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wfld-lgus/playlist.m3u8
+https://linear-700.frequency.stream/dist/stirr/700/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Monroe County TV [1080p]
 https://castus-vod-dev.s3.amazonaws.com/vod_clients/monroe/live/ch1/video.m3u8
 #EXTINF:-1 group-title="IPTV",Monster Jam [720p]
 https://4b9627c7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vbnN0ZXJKYW1fSExT/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Monte Carlo Digital Television [1080p]
-https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8
 #EXTINF:-1 group-title="IPTV",Moviedome [720p]
 https://jmp2.uk/plu-615c1e5ce3039400070a0547.m3u8
 #EXTINF:-1 group-title="IPTV",MovieSphere [1080p]
@@ -1372,19 +1362,17 @@ https://mst3k-roku.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",MTV [1080p]
 http://23.237.104.106:8080/USA_MTV/index.m3u8
 #EXTINF:-1 group-title="IPTV",MTV Biggest Pop [1080p]
-https://jmp2.uk/plu-6047fabfce6e8e00070bcc9f.m3u8
+https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
 #EXTINF:-1 group-title="IPTV",MTV Catfish [720p]
 https://jmp2.uk/plu-626c2a3502d84a0007cec817.m3u8
 #EXTINF:-1 group-title="IPTV",MTV Classic [720p]
-https://jmp2.uk/plu-654100b4bdf3cf0008aa49c7.m3u8
+https://jmp2.uk/plu-66a01dcb8561260008b0a41d.m3u8
 #EXTINF:-1 group-title="IPTV",MTV Dating [720p]
 https://jmp2.uk/plu-6851b909954170e0128bc71d.m3u8
 #EXTINF:-1 group-title="IPTV",MTV Flow Latino [720p]
-https://jmp2.uk/plu-62b218fc511d4b00070ddc0c.m3u8
+https://jmp2.uk/plu-5d3609cd6a6c78d7672f2a81.m3u8
 #EXTINF:-1 group-title="IPTV",MTV Jovens e Maes [720p]
 https://jmp2.uk/plu-620fdc7d8a36fc000710e3ba.m3u8
-#EXTINF:-1 group-title="IPTV",MTV Latin America [1080p]
-http://15.204.246.24:8080/MTVHD/index.m3u8
 #EXTINF:-1 group-title="IPTV",MTV Live [720p]
 http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8
 #EXTINF:-1 group-title="IPTV",MTV Pluto TV [720p]
@@ -1404,9 +1392,9 @@ https://cdn.pishow.tv/ott/live/226/master.m3u8
 #EXTINF:-1 group-title="IPTV",Mystery Science Theater 3000 [1080p]
 https://d1c73nj8qxp55a.cloudfront.net/Mystery_Science_Theater_3000.m3u8
 #EXTINF:-1 group-title="IPTV",Mystery TV [1080p]
-https://amg00841-aenetworksukane-mysterytv-samsunguk-mggb7.amagi.tv/playlist/amg00841-aenetworksukane-mysterytv-samsunguk/playlist.m3u8
+https://aenetworks-mysterytv-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Mythbusters [1080p]
-https://d2bog959vw5xq.cloudfront.net/playlist/amg00627-banijayfast-mythbusters-samsungau/playlist.m3u8
+https://amg00627-amg00627c14-rakuten-uk-4802.playouts.now.amagi.tv/index.m3u8
 #EXTINF:-1 group-title="IPTV",MyTime Movie Network East [1080p]
 https://appletree-mytimeau-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",MyZen TV [1080p]
@@ -1430,13 +1418,13 @@ https://server.playontv.in/nationnews/index.m3u8
 #EXTINF:-1 group-title="IPTV",National Geographic [720p]
 http://198.58.104.90:8989/natgeo/index.m3u8
 #EXTINF:-1 group-title="IPTV",National Geographic Latin America [1080p]
-http://15.204.246.24:8080/NatGeoHD/index.m3u8
+http://181.119.66.28:8081/NATGEO-HD/index.m3u8
 #EXTINF:-1 group-title="IPTV",National Geographic Wild [720p]
 http://198.58.104.90:8989/natgeowild/index.m3u8
 #EXTINF:-1 group-title="IPTV",NBA TV [1080p]
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",NBC [1080p]
-https://content.uplynk.com/channel/e72660594b7a4182982af1690609683d.m3u8
+https://d368vp0qqzvkid.cloudfront.net/11603/88889711/hls/master.m3u8?ads.xumo_channelId=88889711a&ads.xumo_ifaType=&ads.xumo_providerId=3822&ads.xumo_providerName=NBCNBA
 #EXTINF:-1 group-title="IPTV",NBC Comedy Vault [1080p]
 https://xumo-xumoent-vc-105-z0vpm.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1 group-title="IPTV",NBC LX Home [1080p]
@@ -1461,7 +1449,7 @@ https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8
 #EXTVLCOPT:http-referrer=https://marathi.ndtv.com/
 https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/master_1.m3u8
 #EXTINF:-1 group-title="IPTV",NDTV Profit [1080p]
-https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8
+https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8
 #EXTINF:-1 group-title="IPTV",NDTV Rajasthan [1080p]
 https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8
 #EXTINF:-1 group-title="IPTV",Network 10 [720p]
@@ -1490,14 +1478,16 @@ https://jmp2.uk/stvp-IN4000012ML
 https://jmp2.uk/stvp-IN300083R1
 #EXTINF:-1 group-title="IPTV",News State UP & UK [1080p]
 https://jmp2.uk/stvp-IN3000846P
+#EXTINF:-1 group-title="IPTV",News12 Long Island [1080p]
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8?omap=https
 #EXTINF:-1 group-title="IPTV",News12 New York [1080p]
 https://aegis-cloudfront-1.tubi.video/97fbb992-c212-4164-8406-abb6f731e517/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",News12+ Connecticut [1080p]
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_CT_A1/index_new.m3u8
 #EXTINF:-1 group-title="IPTV",News12+ Hudson Valley [1080p]
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_WC_A1/index_new.m3u8
-#EXTINF:-1 group-title="IPTV",News12+ Long Island [1080p]
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_LI_A1/index_new.m3u8
+#EXTINF:-1 group-title="IPTV",News12+ New Jersey [1080p]
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NJ_A1/index_new.m3u8
+#EXTINF:-1 group-title="IPTV",News12+ New York [1080p]
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NYC_A1/index_new.m3u8
 #EXTINF:-1 group-title="IPTV",News18 Assam North-East [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="IPTV",News18 Bangla [1080p]
@@ -1506,40 +1496,26 @@ https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/mast
 https://n18syndication.akamaized.net/bpk-tv/News18_Bihar_Jharkhand_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="IPTV",News18 Delhi NCR JK [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_JKLH_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Gujarati [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Gujarati_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 India [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_India_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="IPTV",News18 Kannada [1080p]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
 #EXTVLCOPT:http-referrer=https://kannada.news18.com/
 https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="IPTV",News18 Kerala [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Madhya Pradesh/Chhattisgarh [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_MP_Chhattisgarh_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Marathi [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Lokmat_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Odia [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Odia_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Punjab/Haryana/Himachal [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="IPTV",News18 Rajasthan [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_Rajasthan_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="IPTV",News18 Tamil Nadu [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="IPTV",News18 Urdu [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_Urdu_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Uttar Pradesh Uttarakhand [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_UP_Uttarakhand_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 group-title="IPTV",News9Live [1080p]
 https://amg01106-amg01106c3-amgplt0844.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg01106-amg01106c3-amgplt0844/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Newsmax 2 [1080p]
-https://nmxdistro.akamaized.net/hls/live/529965/Live_1/index.m3u8
+https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Newsmax Spanish [1080p]
 https://n1ottesorkatv.akamaized.net/hls/live/2113795/Live_1/index.m3u8
 #EXTINF:-1 group-title="IPTV",Newsmax TV [720p]
-https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
+https://a-cdn.klowdtv.com/live2/newsmax_720p/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Newsy [1080p]
 https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e29095844c4ba7d887f01e44a5ef/index.m3u8
 #EXTINF:-1 group-title="IPTV",NFL Channel [1080p]
@@ -1553,7 +1529,7 @@ https://jmp2.uk/stvp-IN460001373
 #EXTINF:-1 group-title="IPTV",NH Tamil Gold [1080p]
 https://d3arbp6l7f096k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-gv6wgpbb4mgwk/playlist.m3u8?ads.ads_cdn=cf&ads.app_domain=APP_DOMAIN&ads.cdn=cf
 #EXTINF:-1 group-title="IPTV",NHL Network [1080p]
-https://nhl-firetv.amagi.tv/playlist.m3u8
+https://aegis-cloudfront-1.tubi.video/1f4cbb33-cb23-40ab-b54b-2965cc551b32/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",NHRA TV [1080p]
 https://d265y4sk8257lt.cloudfront.net/nh.m3u8
 #EXTINF:-1 group-title="IPTV",Nick Jr. [720p]
@@ -1571,11 +1547,11 @@ https://jmp2.uk/plu-6824ce10c5d53e1351ceb8d1.m3u8
 #EXTINF:-1 group-title="IPTV",Nickelodeon Junior [1080p]
 http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8
 #EXTINF:-1 group-title="IPTV",Nickelodeon Latin America [1080p]
-http://15.204.246.24:8080/NickHD/index.m3u8
+http://190.93.224.42/NICK/index.m3u8
 #EXTINF:-1 group-title="IPTV",Nickelodeon Pluto TV [720p]
 https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
 #EXTINF:-1 group-title="IPTV",Nickelodeon Teen [720p]
-https://jmp2.uk/plu-5fab09a8749b1a00077d35d2.m3u8
+https://jmp2.uk/plu-60f5fabf0721880007cd50e3.m3u8
 #EXTINF:-1 group-title="IPTV",Nickelodeon Toons [720p]
 https://jmp2.uk/plu-645951c0e94c38000802d2cb.m3u8
 #EXTINF:-1 group-title="IPTV",Nicktoons [720p]
@@ -1601,7 +1577,7 @@ https://nosey-intl-1-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",NOST [720p]
 https://a-cdn.klowdtv.com/live2/nost_720p/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",NowMedia Television [1080p]
-https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a4243540d4b911f0b624bda5e9a32aa9/index.m3u8
+https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a16fa020f4c411f09ddaa1978319689a/index.m3u8
 #EXTINF:-1 group-title="IPTV",NRBTV [720p]
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=15811
 #EXTINF:-1 group-title="IPTV",NSC9 News [1080p]
@@ -1611,7 +1587,7 @@ https://galaxyott.live/hls/ntv.m3u8
 #EXTINF:-1 group-title="IPTV",NTD TV [1080p]
 https://ntd02.akamaized.net/HD-NY/index.m3u8
 #EXTINF:-1 group-title="IPTV",NTD TV English [1080p]
-https://ntd02.akamaized.net/NTD-UK/index.m3u8
+https://amg17596-ntdtv-amg17596c1-stirr-us-4738.playouts.now.amagi.tv/ntd.m3u8
 #EXTINF:-1 group-title="IPTV",NTV Telugu [1080p]
 https://mumbai-edge.smartplaytv.in/NTVTelugu/index.m3u8
 #EXTINF:-1 group-title="IPTV",OAN Plus [1080p]
@@ -1647,7 +1623,7 @@ https://d3o593mz1glx8d.cloudfront.net/OuterSphere_US.m3u8
 #EXTINF:-1 group-title="IPTV",Outlaw [720p]
 https://content.uplynk.com/channel/1f93c13275024afb9e0ead299624073d.m3u8
 #EXTINF:-1 group-title="IPTV",Outside TV [1080p]
-https://outsidetv-firetv.amagi.tv/playlist.m3u8
+https://desdobebr2wri.cloudfront.net/Outside.m3u8
 #EXTINF:-1 group-title="IPTV",Overcomers TV [720p]
 https://rumble.com/live-hls/79qjh2/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Overtime [1080p]
@@ -1665,7 +1641,7 @@ https://live.feed.thepalmbeaches.tv/index.m3u8
 #EXTINF:-1 group-title="IPTV",Paramount Network [720p]
 http://4.30.180.36:8420/paramount/index.m3u8?token=test
 #EXTINF:-1 group-title="IPTV",Pasiones Latin America [1080p]
-http://15.204.246.24:8080/PasionesHD/index.m3u8
+http://45.224.97.181:9999/Pasiones/index.m3u8
 #EXTINF:-1 group-title="IPTV",Payam Javan TV [720p]
 https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Payame Aramesh TV [720p]
@@ -1679,7 +1655,7 @@ https://pbcvideostreams1.pbc.gov/memfs/1af49f9a-6b90-4ec2-a640-7f65ceebed4a.m3u8
 #EXTINF:-1 group-title="IPTV",PBR RidePass [720p]
 https://jmp2.uk/plu-60d39387706fe50007fda8e8.m3u8
 #EXTINF:-1 group-title="IPTV",PBS [1080p]
-https://pbs.lls.cdn.pbs.org/pst/index.m3u8
+https://hls-kmosdt.lls.cdn.pbs.org/hls/live/index.m3u8
 #EXTINF:-1 group-title="IPTV",PBS Antiques Roadshow [1080p]
 https://amg02333-pbs-amg02333c8-firetv-us-4239.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",PBS Kids [720p]
@@ -1705,7 +1681,7 @@ https://livestream.telvue.com/pacificaca1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/p
 #EXTINF:-1 group-title="IPTV",People Are Awesome [1080p]
 https://mumbai-edge.smartplaytv.in/PeopleAreAwesome/index.m3u8
 #EXTINF:-1 group-title="IPTV",PFL MMA [720p]
-https://a883593c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1BGTE1NQV9ITFM/playlist.m3u8
+https://jmp2.uk/plu-64f6180130ab3300083d896b.m3u8
 #EXTINF:-1 group-title="IPTV",PGA Tour [1080p]
 https://d11k1mnrgfposz.cloudfront.net/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",PhillyCAM [720p]
@@ -1719,7 +1695,7 @@ https://toy.vcdn.fyi/placid/index.m3u8
 #EXTINF:-1 group-title="IPTV",Pluto TV Canal UOL [720p]
 https://jmp2.uk/plu-64b9370b409629000802d32b.m3u8
 #EXTINF:-1 group-title="IPTV",Pluto TV Karaoke por Stingray [720p]
-https://jmp2.uk/plu-5f85cf621d6d2200079f1de0.m3u8
+https://jmp2.uk/plu-604b99d633a72b00078e05ad.m3u8
 #EXTINF:-1 group-title="IPTV",Pluto TV Paisagens por Stingray [720p]
 https://jmp2.uk/plu-604a8dedbca75b0007b1c753.m3u8
 #EXTINF:-1 group-title="IPTV",Pluto TV Record News [720p]
@@ -1791,7 +1767,7 @@ https://server.playontv.in/raatdinbangla/index.m3u8
 #EXTINF:-1 group-title="IPTV",Racer Network [1080p]
 https://amg00378-mavtv-amg00378c2-samsung-au-1790.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-samsungau/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Racer Select [1080p]
-https://d85qrcmltdfp8.cloudfront.net/MAVTV_Select.m3u8
+https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",RadiantTV [1080p]
 https://rpn.bozztv.com/radiant/radiant/radiant/index.m3u8
 #EXTINF:-1 group-title="IPTV",Radio y Television Marti [720p]
@@ -1812,8 +1788,6 @@ https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RAJTV/master_1.m3u8
 https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8
 #EXTINF:-1 group-title="IPTV",RCTV [720p]
 https://livestream.telvue.com/riflecmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",RDX Goa [720p]
-https://g5nl6xoalpq6-hls-live.5centscdn.com/rdxgoa/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Real America's Voice [720p]
 https://d2jiqiw4g5lj5k.cloudfront.net/AVSamsung/AVSamsung.m3u8
 #EXTINF:-1 group-title="IPTV",Real News Kerala [1080p]
@@ -1831,7 +1805,7 @@ https://freecast-lukentvlive.vgcdn.net/out/v1/665e9f91614b43b0a0654e9317f1d9f3/i
 #EXTINF:-1 group-title="IPTV",RetroCrush [1080p]
 https://linear-899.frequency.stream/dist/cineverse/899/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Reuters TV [1080p]
-https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
+https://d5bxknkoxytmb.cloudfront.net/playlist/amg00453-reuters-reuters-samsunggb/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Rev and Roll [720p]
 https://d39nqr4d4h6cv6.cloudfront.net/master.m3u8
 #EXTINF:-1 group-title="IPTV",REV'N Action [720p]
@@ -1861,7 +1835,7 @@ https://live1.ottlive.co.in/spokesman/spokesman/index.m3u8
 #EXTINF:-1 group-title="IPTV",RT France [1080p]
 https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",RT India [1080p]
-https://rt-india.rttv.com/dvr/rtindia/playlist.m3u8
+https://mumbai-edge.smartplaytv.in/RTIndia/index.m3u8
 #EXTINF:-1 group-title="IPTV",RTH-TV1 [1080p]
 https://2-fss-2.streamhoster.com/pl_120/amlst:206708-4203440/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",RTH-TV2 Gospel [720p]
@@ -1885,7 +1859,7 @@ https://livestream.telvue.com/roguevalleycmttv1/f7b44cfafd5c52223d5498196c8a2e7b
 #EXTINF:-1 group-title="IPTV",RVTV Voices [720p]
 https://livestream.telvue.com/roguevalleycmttv3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Ryan and Friends [1080p]
-https://ryanandfriends-samsungau.amagi.tv/playlist.m3u8
+https://d3a0tomzw8z726.cloudfront.net/Ryan_and_Friends.m3u8
 #EXTINF:-1 group-title="IPTV",S Tom Sings [1080p]
 https://vodcdn.bamboo-cloud.com/livehls/6a8408ae0630440c2f39aec3/master.m3u8
 #EXTINF:-1 group-title="IPTV",SADA TV [1080p]
@@ -2001,13 +1975,13 @@ https://d4whmvwm0rdvi.cloudfront.net/10007/99993017/hls/master.m3u8?ads.xumo_cha
 #EXTINF:-1 group-title="IPTV",So... Real [720p]
 https://all3media-soreal-1-gb.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Sonic TV [720p]
-https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16764
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2260
 #EXTINF:-1 group-title="IPTV",Sony Aath [1080p]
 https://cloudplay-sonyliv.pages.dev/aath.m3u8
 #EXTINF:-1 group-title="IPTV",Sony BBC Earth [1080p]
 https://cloudplay-sonyliv.pages.dev/bbcearthhd.m3u8
 #EXTINF:-1 group-title="IPTV",Sony Channel Andes [1080p]
-http://15.204.246.24:8080/SonyHD/index.m3u8
+http://181.119.66.28:8081/SONY-HD/index.m3u8
 #EXTINF:-1 group-title="IPTV",Sony Entertainment Television [1080p]
 http://38.96.178.205/SONYHD/index.m3u8
 #EXTINF:-1 group-title="IPTV",Sony KAL Hindi [1080p]
@@ -2018,8 +1992,6 @@ https://cloudplay-sonyliv.pages.dev/marathi.m3u8
 https://cloudplay-sonyliv.pages.dev/maxhd.m3u8
 #EXTINF:-1 group-title="IPTV",Sony Max 2 [1080p]
 https://cloudplay-sonyliv.pages.dev/max2.m3u8
-#EXTINF:-1 group-title="IPTV",Sony Movies Latin America [720p]
-http://15.204.246.24:8080/SonyMoviesHD/index.m3u8
 #EXTINF:-1 group-title="IPTV",Sony One Blacklist [1080p]
 https://d1x87j1jmcypab.cloudfront.net/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Sony One Favoris [1080p]
@@ -2035,13 +2007,13 @@ https://cloudplay-sonyliv.pages.dev/pixhd.m3u8
 #EXTINF:-1 group-title="IPTV",Sony SAB [1080p]
 https://cloudplay-sonyliv.pages.dev/sabhd.m3u8
 #EXTINF:-1 group-title="IPTV",Sony Sports Ten 1 [1080p]
-https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
+https://cloudplay-sonyliv.pages.dev/ten1.m3u8
 #EXTINF:-1 group-title="IPTV",Sony Sports Ten 2 [1080p]
 https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
 #EXTINF:-1 group-title="IPTV",Sony Sports Ten 3 Hindi [1080p]
-https://cloudplay-sonyliv.pages.dev/ten3.m3u8
+https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
 #EXTINF:-1 group-title="IPTV",Sony Sports Ten 4 [1080p]
-https://cloudplay-sonyliv.pages.dev/ten4hd.m3u8
+https://cloudplay-sonyliv.pages.dev/ten4.m3u8
 #EXTINF:-1 group-title="IPTV",Sony Sports Ten 5 [1080p]
 https://cloudplay-sonyliv.pages.dev/ten5hd.m3u8
 #EXTINF:-1 group-title="IPTV",Sony Wah [1080p]
@@ -2057,11 +2029,11 @@ https://nktv.smartstream.video/smartstream-us/spondon/spondon/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",SpongeBob SquarePants [720p]
 https://jmp2.uk/plu-63f87d057533d80008ab9549.m3u8
 #EXTINF:-1 group-title="IPTV",SportsGrid [1080p]
-https://amg00315-sportsgrid-firetv.amagi.tv/playlist.m3u8
+https://sportsgrid-tribal.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Stadium [720p]
-https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8
+https://aegis-cloudfront-1.tubi.video/74681dcc-e6d0-4add-ad67-a22ad9c152e6/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Star Channel Latin America [1080p]
-http://15.204.246.24:8080/STARCHANNELHD/index.m3u8
+http://181.119.66.28:8081/STAR-CHANNEL/index.m3u8
 #EXTINF:-1 group-title="IPTV",Star Jalsha [720p]
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8
 #EXTINF:-1 group-title="IPTV",Star Maa [720p]
@@ -2093,7 +2065,7 @@ https://fffffff110156200.tvustream.com:8298/ryfy.m3u8
 #EXTINF:-1 group-title="IPTV",Studio One + [720p]
 https://cdn.pishow.tv/ott/live/276/master.m3u8
 #EXTINF:-1 group-title="IPTV",Studio Universal Latin America [1080p]
-http://15.204.246.24:8080/StudioUniversalHD/index.m3u8
+http://138.121.15.230:9002/STUDIO-UNIVERSAL/index.m3u8
 #EXTINF:-1 group-title="IPTV",Subhavaartha TV [720p]
 https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Subin TV [1080p]
@@ -2129,7 +2101,7 @@ https://server.playontv.in/swastiktv/index.m3u8
 #EXTINF:-1 group-title="IPTV",Swatantra TV [1080p]
 https://mumbai-edge.smartplaytv.in/SwatantraTV/index.m3u8
 #EXTINF:-1 group-title="IPTV",Swerve Combat [1080p]
-https://linear-253.frequency.stream/dist/stirr/253/hls/master/playlist.m3u8
+https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Swerve Sports [720p]
 https://a-cdn.klowdtv.com/live3/swervewomenssports_720p/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",SYFY [720p]
@@ -2159,17 +2131,15 @@ https://jmp2.uk/plu-5fd1419a3b4f4b000773ba85.m3u8
 #EXTINF:-1 group-title="IPTV",Tastemade en Espanol [1080p]
 https://tastemadees16us-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Tastemade Travel [1080p]
-https://d6ef3usc6d9cl.cloudfront.net/Tastemade_Travel.m3u8
+https://amg00047-tastemade-amg00047c3-cineverse-us-1360.playouts.now.amagi.tv/playlist/amg00047-tastemadefast-tastemadetravel-cineverseus/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",TBN Ukraine [720p]
 https://5d23269b3ec0c.streamlock.net/WEB_Ukraine24/ngrp:Ukraine24.stream-adaptive/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",TCT [1080p]
-https://d16yptpbiuldtt.cloudfront.net/0b4ebb8be00f40ee83c024f661a85dcd/index.m3u8
+https://cdn.jwplayer.com/live/broadcast/frRD2nUK.m3u8
 #EXTINF:-1 group-title="IPTV",TED [1080p]
 https://d1b16tvvxk3tnu.cloudfront.net/TED.m3u8
 #EXTINF:-1 group-title="IPTV",Tehzeeb TV [720p]
 https://cdn.pishow.tv/ott/live/239/master.m3u8
-#EXTINF:-1 group-title="IPTV",Tele Pam [1080p]
-https://watch.haitilive.net/app/2020/telepam/index.fmp4.m3u8
 #EXTINF:-1 group-title="IPTV",Telemundo [2160p]
 http://168.228.44.241:9997/play/a07g/index.m3u8
 #EXTINF:-1 group-title="IPTV",Telemundo Al Dia [720p]
@@ -2177,11 +2147,11 @@ https://d3f4oii5n0oeqi.cloudfront.net/11701/88814573/hls/master.m3u8?ads.xumo_ch
 #EXTINF:-1 group-title="IPTV",Telemundo Corpus Christi [720p]
 https://content.uplynk.com/channel/b6a96ed39d694ae1b738faa98cf7dd3f.m3u8
 #EXTINF:-1 group-title="IPTV",Telemundo Internacional [1080p]
-http://138.121.15.230:9002/TELEMUNDO/index.m3u8
+http://190.60.46.156:8089/TELEMUNDO/index.m3u8
 #EXTINF:-1 group-title="IPTV",Telugu One [1080p]
 https://teluguone-yupptv.vgcdn.net/v1/019be9e3f04d1ea55784338b5c3e89/019be9e4474415fc60e93459e1e808/teluguone_2500k.m3u8
 #EXTINF:-1 group-title="IPTV",Tennis Channel [1080p]
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Tennis Channel 2 [1080p]
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 #EXTINF:-1 group-title="IPTV",TF1 [1080p]
@@ -2205,7 +2175,7 @@ https://amg00353-amg00353c36-xumo-us-3803.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",The Country Network [1080p]
 https://amg00600-amg00600c1-thecountrynetwork-us-5497.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",The Design Network [1080p]
-https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist/amg00441-thedesignnetworkllcfast-thedesignnetwork-rakutenus/playlist.m3u8
+https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",The Doctors [720p]
 https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/Doctors/index.m3u8
 #EXTINF:-1 group-title="IPTV",The Film Detective [720p]
@@ -2237,7 +2207,7 @@ https://tgn.bozztv.com/watc57/watc57-2/watc57-2/index.m3u8
 #EXTINF:-1 group-title="IPTV",The Price Is Right [720p]
 https://jmp2.uk/plu-64c2214c2a7f2200089a0c4b.m3u8
 #EXTINF:-1 group-title="IPTV",The Price Is Right: The Barker Era [1080p]
-https://amg00145-buzzr-bigballs-tpir-8min-rokuus-otcre.amagi.tv/playlist/amg00145-buzzr-bigballs-tpir-8min-rokuus/playlist.m3u8
+https://amg00145-letsplayinc-thepriceisright-xumo-eqq6a.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",The Voice TV [1080p]
 https://legitpro.co.in/thevoicetv/thevoicetv/index.m3u8
 #EXTINF:-1 group-title="IPTV",The Walking Dead en Espanol [720p]
@@ -2259,7 +2229,7 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 #EXTINF:-1 group-title="IPTV",Tin TV [720p]
 https://bozztv.com/1gbw5/tintv/tintv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Tiny House Nation [720p]
-https://adf47c43.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9UaW55SG91c2VOYXRpb25fSExT/playlist.m3u8
+https://7e5c93fc.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1RpbnlIb3VzZU5hdGlvbl9ITFM/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",TLN Media Chicago [720p]
 https://fuel-streaming-prod01.fuelmedia.io/v1/sem/cb165faa-41c9-42ad-83ee-ad5ca9fb927c.m3u8
 #EXTINF:-1 group-title="IPTV",TLN Media San Francisco [720p]
@@ -2298,7 +2268,7 @@ https://channels.trace.plus/Traceprod/TERANGA_hd/index.m3u8
 #EXTINF:-1 group-title="IPTV",Trace Ayiti [1080p]
 https://channels.trace.plus/Traceprod/AYITI_hd/index.m3u8
 #EXTINF:-1 group-title="IPTV",Trace Brazuca [1080p]
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-samsungbr/playlist.m3u8
+https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Trace Caribbean [1080p]
 https://channels.trace.plus/Traceprod/CARIBBEAN_hd/index.m3u8
 #EXTINF:-1 group-title="IPTV",Trace Gospel [1080p]
@@ -2310,7 +2280,7 @@ https://channels.trace.plus/Traceprod/JAMA_hd/index.m3u8
 #EXTINF:-1 group-title="IPTV",Trace Kitoko [1080p]
 https://channels.trace.plus/Traceprod/KITOKO_hd/index.m3u8
 #EXTINF:-1 group-title="IPTV",Trace Latina [1080p]
-https://amg01131-tracetv-tracelatina-glewed-vtnk7.amagi.tv/playlist.m3u8
+https://amg01131-tracetv-amg01131c3-stirr-us-4391.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Trace Mboa [1080p]
 https://channels.trace.plus/Traceprod/MBOA_hd/index.m3u8
 #EXTINF:-1 group-title="IPTV",Trace Muzika [1080p]
@@ -2330,7 +2300,7 @@ https://channels.trace.plus/Traceprod/URBAN_AFRIC_FR_hd/index.m3u8
 #EXTINF:-1 group-title="IPTV",Trace Vanilla Islands [1080p]
 https://channels.trace.plus/Traceprod/VANILLA_hd/index.m3u8
 #EXTINF:-1 group-title="IPTV",Travelxp [1080p]
-http://stream.mcquack.net/451/index.m3u8
+https://amg00416-amg00416c9-samsung-in-4882.playouts.now.amagi.tv/playlist/amg00416-travelxp-travelxphd-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Tribeca Channel [1080p]
 https://amg02507-giantpictures-tribeca-xumo-ey2b7.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",True Crime Network [1080p]
@@ -2420,14 +2390,14 @@ https://all3media-international-undercoverboss-1-au.samsung.wurl.tv/playlist.m3u
 #EXTINF:-1 group-title="IPTV",Unidentified [1080p]
 https://d3ify425qsio2d.cloudfront.net/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",UniMas [1080p]
-http://168.228.44.241:9997/play/a09e/index.m3u8
+http://4.30.180.36:8420/wfutdt/mono.m3u8?token=test
 #EXTINF:-1 group-title="IPTV",Universal Comedy [1080p]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/universalcomedy/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Universal Crime [1080p]
 https://xumo-xumoent-vc-107-xmuvk.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1 group-title="IPTV",Universal TV Latin America [1080p]
-http://15.204.246.24:8080/UniversalHD/index.m3u8
+http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8
 #EXTINF:-1 group-title="IPTV",Univision [1080p]
 https://streaming-live-fcdn.api.prd.univisionnow.com/unieast/unieast.isml/hls/unieast.m3u8
 #EXTINF:-1 group-title="IPTV",Unsolved Mysteries [720p]
@@ -2437,7 +2407,7 @@ http://4.30.180.36:8420/usa/index.m3u8?token=test
 #EXTINF:-1 group-title="IPTV",USA Network Latin America [1080p]
 http://138.121.15.230:9002/USA/index.m3u8
 #EXTINF:-1 group-title="IPTV",USA TODAY [1080p]
-https://amg00457-amg00457c1-stirr-us-8143.playouts.now.amagi.tv/playlist.m3u8
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",UTV Palakkad [1080p]
 https://em4qj6nedyvg-hls-live.wmncdn.net/utv/ab2de115318ae40bdd434e193a2f2e7f.sdp/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Vaanavil TV [720p]
@@ -2459,9 +2429,9 @@ https://pb-xrdbj9zdgm6ez.akamaized.net/Vevo_Country.m3u8
 #EXTINF:-1 group-title="IPTV",Vevo Hip Hop [1080p]
 https://d3vgs3ro3x6v8a.cloudfront.net/Vevo_Hip_Hop.m3u8
 #EXTINF:-1 group-title="IPTV",Vevo Latino [1080p]
-https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist.m3u8
+https://d1vgg34wqvwdqj.cloudfront.net/Vevo_Latino.m3u8
 #EXTINF:-1 group-title="IPTV",Vevo Pop [1080p]
-https://amg00056-amg00056c6-rakuten-uk-3235.playouts.now.amagi.tv/playlist.m3u8
+https://amg00056-amg00056c9-rakuten-fr-3243.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevopopfr-rakutenfr/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Vevo R&B [1080p]
 https://d1hf773q57zx9s.cloudfront.net/Vevo_R_B.m3u8
 #EXTINF:-1 group-title="IPTV",Vevo Retro Rock [1080p]
@@ -2473,7 +2443,7 @@ https://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3
 #EXTINF:-1 group-title="IPTV",viaTelePaese [720p]
 https://srv.webtvmanager.fr:3970/live/viatelepaeselive.m3u8
 #EXTINF:-1 group-title="IPTV",VICE TV [1080p]
-http://23.237.104.106:8080/USA_VICETV/index.m3u8
+https://vicetv-vicefast1-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Village TV [1080p]
 https://live.villagetv.net/villagetv/hd/index.m3u8
 #EXTINF:-1 group-title="IPTV",Vision Latina Network [1080p]
@@ -2527,7 +2497,7 @@ https://www-on-freecast.b-cdn.net/WWW-on-Freecast/index.m3u8
 #EXTINF:-1 group-title="IPTV",WION [1080p]
 https://raw.githubusercontent.com/Alstruit/adaptive-streams/alstruit-10_23_in/streams/in/WION.in.m3u8
 #EXTINF:-1 group-title="IPTV",Wipeout Xtra [1080p]
-https://djoigjo2g1xzo.cloudfront.net/Wipeout_Xtra.m3u8
+https://amg00627-banijaygroup-wipeoutxtraau-samsungau-ashbl.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtraau-samsungau/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Wired2FishTV [720p]
 https://wire2fish-klowdtv.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",WLMB [1080p]
@@ -2541,7 +2511,7 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 #EXTINF:-1 group-title="IPTV",World Punjabi TV [1080p]
 https://live1.ottlive.co.in/worldpunjabitv/worldpunjabitv/index.m3u8
 #EXTINF:-1 group-title="IPTV",WOW Kidz [720p]
-https://yuppparoriglin.akamaized.net/181224/smil:wowkidztam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+https://yuppparoriglin.akamaized.net/181224/smil:wowkidzhindi.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 group-title="IPTV",WPLG 10.1 [720p]
 https://pubads.g.doubleclick.net/ssai/event/tQD6w9OJQVOobcyV3Dammw/master.m3u8
 #EXTINF:-1 group-title="IPTV",WSOC Now [1080p]
@@ -2577,7 +2547,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/pl
 #EXTINF:-1 group-title="IPTV",YTA TV [720p]
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16767
 #EXTINF:-1 group-title="IPTV",Yu-Gi-Oh! [1080p]
-https://dwgcgcahlni2h.cloudfront.net/playlist.m3u8
+https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Yu-Gi-Oh! en espanol [1080p]
 https://amg01796-amg01796c18-rakuten-es-7491.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugiohees-rakutenes/playlist.m3u8
 #EXTINF:-1 group-title="IPTV",Yuma Channel 72 [1080p]
@@ -2633,6 +2603,6 @@ http://41.205.93.154/ZEE-TV/index.m3u8
 #EXTINF:-1 group-title="IPTV",Zee Uttar Pradesh/Uttarakhand [720p]
 https://duw35ict5q7th.cloudfront.net/index_3.m3u8
 #EXTINF:-1 group-title="IPTV",zenith [1080p]
-https://live.azenagroup.com/zenith/index.ll.m3u8
+https://live.azenagroup.com/zenith/index.m3u8
 #EXTINF:-1 group-title="IPTV",Zoom [720p]
 https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
