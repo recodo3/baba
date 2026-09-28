@@ -35,14 +35,12 @@ https://cloudplay-sonyliv.pages.dev/maxhd.m3u8
 #EXTINF:-1 group-title="ramboHD",Zee Cinema HD
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8
 
-#EXTINF:-1 group-title="ramboHD",Discovery ID
-https://new8k.deadpooll.workers.dev/playlist?id=2068
+
 
 #EXTINF:-1 group-title="ramboHD",Discovery Channel
 https://new8k.deadpooll.workers.dev/playlist?id=1802
 
-#EXTINF:-1 group-title="ramboHD",Nat Geo
-https://new8k.deadpooll.workers.dev/playlist?id=1807
+
 
 #EXTINF:-1 group-title="ramboHD",Nat Geo Wild
 https://new8k.deadpooll.workers.dev/playlist?id=1808
