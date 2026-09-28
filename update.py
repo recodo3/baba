@@ -20,6 +20,7 @@ def is_allowed_quality(quality):
     quality = normalize(quality)
 
     return quality in {
+        "1080p",
         "720p"
     }
 
@@ -33,7 +34,8 @@ def is_allowed_quality(quality):
 # =========================================================
 
 ALLOWED_COUNTRIES = {
-    "IN"
+    "IN",
+    "US"
 }
 
 
