@@ -35,7 +35,8 @@ def is_allowed_quality(quality):
 
 ALLOWED_COUNTRIES = {
     "IN",
-    "US"
+    "US",
+    "FR"
 }
 
 
