@@ -1,424 +1,349 @@
 #EXTM3U
-#EXTINF:-1 group-title="IPTV",&TV [1080p]
-https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",22Scope News [1080p]
-https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8
-#EXTINF:-1 group-title="IPTV",4 SiDES TV [1080p]
-https://stream.ottlive.co.in/4sidestv/index.m3u8
-#EXTINF:-1 group-title="IPTV",9 Plus News [1080p]
-https://stream.ottlive.co.in/9plusnews/index.m3u8
-#EXTINF:-1 group-title="IPTV",9X Jalwa [1080p]
-https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8
-#EXTINF:-1 group-title="IPTV",9X Jhakaas [1080p]
-https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",9X Tashan [1080p]
-https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",9XM [1080p]
-https://wiselp.wiseplayout.com/9XM/master.m3u8
-#EXTINF:-1 group-title="IPTV",Aaj Ki Khabar [1080p]
-https://stream.ottlive.co.in/aajkikhabar/index.m3u8
-#EXTINF:-1 group-title="IPTV",Aaj Tak [1080p]
-https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8
-#EXTINF:-1 group-title="IPTV",Aaryaa TV [1080p]
-https://stream.ottlive.co.in/aryatvtamil/index.m3u8
-#EXTINF:-1 group-title="IPTV",ABP Ananda [1080p]
-https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ananda-livetv/master.m3u8
-#EXTINF:-1 group-title="IPTV",ABP Asmita [1080p]
-https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/asmita-livetv/master.m3u8
-#EXTINF:-1 group-title="IPTV",ABP Ganga [1080p]
-https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master.m3u8
-#EXTINF:-1 group-title="IPTV",ABP News [1080p]
-https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8
-#EXTINF:-1 group-title="IPTV",AmarUjala [1080p]
-https://amarujala.ottlive.co.in/amarujala/index.m3u8
-#EXTINF:-1 group-title="IPTV",Anand TV [1080p]
-https://live.legitpro.co.in/anandtv/index.m3u8
-#EXTINF:-1 group-title="IPTV",Asian News [1080p]
-https://stream.ottlive.co.in/asiannews/index.m3u8
-#EXTINF:-1 group-title="IPTV",Asianet News [1080p]
-https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Asianet Suvarna News [1080p]
-https://asianetnews.vgcdn.net/vglive-sk-335835/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",B4U Bhojpuri [1080p]
-https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
-#EXTINF:-1 group-title="IPTV",Bhagyam TV [1080p]
-https://ott.bhagyam.net/hls/bhagyamweb/index-1409148900-now.m3u8
-#EXTINF:-1 group-title="IPTV",Big TV 24x7 [1080p]
-https://stream.ottlive.co.in/bigtvmalayalam/index.m3u8
-#EXTINF:-1 group-title="IPTV",Bollygold [1080p]
-https://jmp2.uk/stvp-IN4000600Q
-#EXTINF:-1 group-title="IPTV",Channel Divya [1080p]
-https://vg-pitaaratvlive.akamaized.net/v1/vglive-sk-906482/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Chardikla Gurbaani TV [1080p]
-https://chardikalatimestv.gigabitcdn.net/in-chardikala/chardikala-gurbani-tv/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Chardikla Time TV [1080p]
-https://chardikalagurbanitv.gigabitcdn.net/in-chardikala/chardikala-timetv/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Chardikla Time TV North America [1080p]
-https://chardikalanorthamerica.gigabitcdn.net/in-chardikala/chardikala-north-usa/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",CNBC Awaaz [1080p]
-https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",CNBC Bajar [1080p]
-https://n18syndication.akamaized.net/bpk-tv/CNBC_Bazaar_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",CNBC TV18 [1080p]
-https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8
-#EXTINF:-1 group-title="IPTV",CNBC TV18 Prime HD [1080p]
-https://n18syndication.akamaized.net/bpk-tv/CNBC_Tv18_Prime_HD_NW18_MOB/output01/index.m3u8
-#EXTINF:-1 group-title="IPTV",CTVN AKD Plus [1080p]
-https://live.legitpro.co.in/ctvnakdplus/index.m3u8
-#EXTINF:-1 group-title="IPTV",Daily Post TV [1080p]
-https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/103b8dd3-a888-4d1d-89a5-8a4bc25e48c1/index.m3u8
-#EXTINF:-1 group-title="IPTV",DD India [1080p]
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/ceda14583477426aa162a65392d8ea07/index.m3u8
-#EXTINF:-1 group-title="IPTV",DD Kisan [1080p]
-https://mumbai-edge.smartplaytv.in/DDKisan/index.m3u8
-#EXTINF:-1 group-title="IPTV",DD National [1080p]
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8
-#EXTINF:-1 group-title="IPTV",DD News [1080p]
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8
-#EXTINF:-1 group-title="IPTV",DD Sports [1080p]
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 group-title="IPTV",DD Tamil [1080p]
-https://d2lk5u59tns74c.cloudfront.net/out/v1/abf46b14847e45499f4a47f3a9afe93d/index.m3u8
-#EXTINF:-1 group-title="IPTV",Disney International HD [1080p]
-http://202.70.146.135:8000/play/a04p/index.m3u8
-#EXTINF:-1 group-title="IPTV",DocuBay TV [1080p]
-https://cc-mgr91yrk4pehy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mgr91yrk4pehy/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Epic Bharat [1080p]
-https://epiconvh.akamaized.net/live/nazara/master.m3u8
-#EXTINF:-1 group-title="IPTV",Epic Bhojpuri [1080p]
-https://cc-8hy4a26pz2uos.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8hy4a26pz2uos/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Epic Crimes [1080p]
-https://cc-wsuyg2uxeak04.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-wsuyg2uxeak04/master.m3u8
-#EXTINF:-1 group-title="IPTV",Epic Kids [1080p]
-https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Epic Music [1080p]
-https://cc-3cyxq80qusspd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3cyxq80qusspd/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Epic TV [1080p]
-https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8
-#EXTINF:-1 group-title="IPTV",ETV Beats [1080p]
-https://jmp2.uk/stvp-IN4900002RV
-#EXTINF:-1 group-title="IPTV",ETV Comedy [1080p]
-https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",ETV Josh [1080p]
-https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",ETV Music [1080p]
-https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",ETV News [1080p]
-https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Fateh TV [1080p]
-https://ott.livelegitpro.in/fatehtv/fatehtv/index.m3u8
-#EXTINF:-1 group-title="IPTV",Friends TV [1080p]
-https://server.playontv.in/friendstv/index.m3u8
-#EXTINF:-1 group-title="IPTV",Gangaur TV [1080p]
-https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8
-#EXTINF:-1 group-title="IPTV",Global Punjab [1080p]
-https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8
-#EXTINF:-1 group-title="IPTV",GTC News [1080p]
-https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/921cca59-daee-4f89-8c38-7ffe8de44f4c/index.m3u8
-#EXTINF:-1 group-title="IPTV",GTC Punjabi [1080p]
-https://cdn.ottlive.co.in/gtcpunjabi/index.m3u8
-#EXTINF:-1 group-title="IPTV",Guarantee News [1080p]
-https://guaranteenews.in:8443/live/gnews/index.m3u8
-#EXTINF:-1 group-title="IPTV",Hebron TV [1080p]
-https://account20.livebox.co.in/charleshls/live.m3u8
-#EXTINF:-1 group-title="IPTV",Hindi Khabar [1080p]
-https://stream.ottlive.co.in/hindikhabar/index.m3u8
-#EXTINF:-1 group-title="IPTV",History TV18 [1080p]
-https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",India Daily Live [1080p]
-https://indiadaily.ottlive.co.in/indiadailylive/index.m3u8
-#EXTINF:-1 group-title="IPTV",India TV Aap Ki Adalat [1080p]
-https://amg01550-amg01550c6-samsung-in-4679.playouts.now.amagi.tv/playlist/amg01550-indiatvfast-indiatvakasamsung-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",India TV Speed News [1080p]
-https://cc-lyf4c0hwzg5dd.akamaized.net/v1/vglive-sk-479089/main.m3u8
-#EXTINF:-1 group-title="IPTV",Janta TV [1080p]
-https://live.jswk.online/IK_RTPM/live/index.m3u8
-#EXTINF:-1 group-title="IPTV",Joy TV [1080p]
-https://ktismaservers.in:3412/live/joytvlive.m3u8
-#EXTINF:-1 group-title="IPTV",Kadak [1080p]
-https://n18syndication.akamaized.net/bpk-tv/Kadak_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",KBC News [1080p]
-https://stream.ottlive.co.in/kbcnews/index.m3u8
-#EXTINF:-1 group-title="IPTV",KBP Times [1080p]
-https://kbpnews.cloud/Kbptimes/Kbptimeslive/video.m3u8
-#EXTINF:-1 group-title="IPTV",Knock Bhakti [1080p]
-https://knocktv2.wiseplayout.com/Knock_Bhakti_EST/master.m3u8
-#EXTINF:-1 group-title="IPTV",Kolkata TV [1080p]
-https://cdn.ottlive.co.in/kolkatatv/index.m3u8
-#EXTINF:-1 group-title="IPTV",Living India News [1080p]
-https://stream.ottlive.co.in/livingindia/index.m3u8
-#EXTINF:-1 group-title="IPTV",Mahaa Bhakti [1080p]
-https://mumbai-edge.smartplaytv.in/MahaBhakthi/index.m3u8
-#EXTINF:-1 group-title="IPTV",Mahaa Max [1080p]
-https://mumbai-edge.smartplaytv.in/MahaMax/index.m3u8
-#EXTINF:-1 group-title="IPTV",Mahaa News [1080p]
-https://mumbai-edge.smartplaytv.in/MahaNews/index.m3u8
-#EXTINF:-1 group-title="IPTV",Malai Murasu TV [1080p]
-https://amg17783-amg17783c1-amgplt0173.playout.now3.amagi.tv/playlist/amg17783-amg17783c1-amgplt0173/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Mango Mobile TV [1080p]
-https://amg01911-mangotv-amg01911c1-xiaomi-in-1270.playouts.now.amagi.tv/playlist/amg01911-mangomassmedia-mangotv-xiaomiin/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Manorama News [1080p]
-https://mmtvnews1.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvNewsCampaign1/index.m3u8
-#EXTINF:-1 group-title="IPTV",Marutam TV [1080p]
-https://mntv.livebox.co.in/mntvhls/live.m3u8
-#EXTINF:-1 group-title="IPTV",Mazhavil Manorama [1080p]
-https://mmtv-vglivessai.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/f8a0827f-030f-4a0d-b7e5-338996c09a5b/index.m3u8
-#EXTINF:-1 group-title="IPTV",Mercy TV [1080p]
-https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Metro TV [1080p]
-https://mercury.streambridge.link:8042/telugu/metrotv/index.m3u8
-#EXTINF:-1 group-title="IPTV",NDTV Good Times [1080p]
-https://amg01448-samsungin-ndtvgoodtimes-samsungin-ad-gp.amagi.tv/playlist/amg01448-samsungin-ndtvgoodtimes-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",NDTV Madhya Pradesh Chhattisgarh [1080p]
-https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8
-#EXTINF:-1 group-title="IPTV",NDTV Marathi [1080p]
-#EXTVLCOPT:http-referrer=https://marathi.ndtv.com/
-https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/master_1.m3u8
-#EXTINF:-1 group-title="IPTV",NDTV Profit [1080p]
-https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8
-#EXTINF:-1 group-title="IPTV",NDTV Rajasthan [1080p]
-https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8
-#EXTINF:-1 group-title="IPTV",News Capital Gujarat [1080p]
-https://newscapital.com/hls/main4/stream.m3u8
-#EXTINF:-1 group-title="IPTV",News Capital Market [1080p]
-https://newscapital.com/hls/stream.m3u8?token=Nc360PermanentSecureKey987
-#EXTINF:-1 group-title="IPTV",News Nation [1080p]
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8
-#EXTINF:-1 group-title="IPTV",News Nation 81 [1080p]
-https://live.newsnation81.com/newsnation81/newsnation81/index.m3u8
-#EXTINF:-1 group-title="IPTV",News State MP & CHG [1080p]
-https://jmp2.uk/stvp-IN4000012ML
-#EXTINF:-1 group-title="IPTV",News State Punjab Haryana Himachal [1080p]
-https://jmp2.uk/stvp-IN300083R1
-#EXTINF:-1 group-title="IPTV",News State UP & UK [1080p]
-https://jmp2.uk/stvp-IN3000846P
-#EXTINF:-1 group-title="IPTV",News18 Assam North-East [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Bangla [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Bihar Jharkhand [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Bihar_Jharkhand_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Delhi NCR JK [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_JKLH_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Gujarati [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Gujarati_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 India [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_India_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Kannada [1080p]
+#EXTINF:-1 group-title="IPTV",10 TV [720p]
+https://mumbai-edge.smartplaytv.in/10TV/index.m3u8
+#EXTINF:-1 group-title="IPTV",99TV [720p]
+https://cdn.pishow.tv/ott/live/1211/master.m3u8
+#EXTINF:-1 group-title="IPTV",Aaj Tak [720p]
+https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-791258/master.m3u8
+#EXTINF:-1 group-title="IPTV",Aamar Bangla [720p]
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Aastha [720p]
+https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8
+#EXTINF:-1 group-title="IPTV",Aastha Prime 1 [720p]
+https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8
+#EXTINF:-1 group-title="IPTV",ABN Andhra Jyoti [720p]
+https://mumbai-edge.smartplaytv.in/ABNAJ/index.m3u8
+#EXTINF:-1 group-title="IPTV",ABP News [720p]
+https://mumbai-edge.smartplaytv.in/ABPNews/index.m3u8
+#EXTINF:-1 group-title="IPTV",Adhyatm TV [720p]
+https://mumbai-edge.smartplaytv.in/AdhyatmTV/index.m3u8
+#EXTINF:-1 group-title="IPTV",Alankar TV [720p]
+https://livetv.tarangplus.in/alankar-origin/live/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Amrita TV [720p]
+https://ddash74r36xqp.cloudfront.net/master.m3u8
+#EXTINF:-1 group-title="IPTV",Ananda Barta [720p]
+https://account19.livebox.co.in/Anandabarta2hls/live.m3u8
+#EXTINF:-1 group-title="IPTV",ANB News [720p]
+https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8
+#EXTINF:-1 group-title="IPTV",Angel TV [720p]
+https://janya-digimix.akamaized.net/vglive-sk-438760/fareast/ngrp:angelfareast_all/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Anjan TV [720p]
+https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Asianet [720p]
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/AsianetHD.m3u8
+#EXTINF:-1 group-title="IPTV",Asianet Movies [720p]
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies1.smil/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Awaaz India TV [720p]
+https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
+#EXTINF:-1 group-title="IPTV",Balle Balle [720p]
+https://mcncdndigital.com/balleballetv/index.m3u8
+#EXTINF:-1 group-title="IPTV",Bhakthi TV [720p]
+https://cdn.pishow.tv/ott/live/397/master.m3u8
+#EXTINF:-1 group-title="IPTV",Bharat24 [720p]
+https://cdn.ottlive.co.in/bharat24/index.m3u8
+#EXTINF:-1 group-title="IPTV",Bhojpuri Cinema [720p]
+https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",BIG TV [720p]
+https://cdn.pishow.tv/ott/live/1059/master.m3u8
+#EXTINF:-1 group-title="IPTV",Boogle Bollywood [720p]
+https://yuppnimrestreammum.akamaized.net/181224/smil:bogglebollywood.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:-1 group-title="IPTV",BRK News [720p]
+https://mumbai-edge.smartplaytv.in/BRKNEWS/index.m3u8
+#EXTINF:-1 group-title="IPTV",BT TV [720p]
+https://feeds.intoday.in/bttv/itgd.m3u8
+#EXTINF:-1 group-title="IPTV",Channel Divya [720p]
+https://mumbai-edge.smartplaytv.in/channeldivya/index.m3u8
+#EXTINF:-1 group-title="IPTV",Channel WIN [720p]
+https://cdn.pishow.tv/ott/live/229/master.m3u8
+#EXTINF:-1 group-title="IPTV",Cnews Bharat [720p]
+https://legitpro.co.in/cnews/cnews/index.fmp4.m3u8
+#EXTINF:-1 group-title="IPTV",Colors Marathi [720p]
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsmarathihd.smil/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Colors MENA [720p]
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Colors Tamil [720p]
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",CVR English [720p]
+https://cdn.pishow.tv/ott/live/425/master.m3u8
+#EXTINF:-1 group-title="IPTV",Dangal 2 [720p]
+https://live-dangal2.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Dangal TV [720p]
+https://live-dangal.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",DD Bharati [720p]
+https://cdn.pishow.tv/ott/live/10/master.m3u8
+#EXTINF:-1 group-title="IPTV",DD Bihar [720p]
+https://cdn.pishow.tv/ott/live/35/master.m3u8
+#EXTINF:-1 group-title="IPTV",DD Chhattisgarh [720p]
+https://cdn.pishow.tv/ott/live/15/master.m3u8
+#EXTINF:-1 group-title="IPTV",DD India [720p]
+https://d2gvyg6lvauoko.cloudfront.net/230226/ddindia/chunks.m3u8
+#EXTINF:-1 group-title="IPTV",DD Kisan [720p]
+https://cdn.pishow.tv/ott/live/9/master.m3u8
+#EXTINF:-1 group-title="IPTV",DD Madhya Pradesh [720p]
+https://cdn.pishow.tv/ott/live/31/master.m3u8
+#EXTINF:-1 group-title="IPTV",DD Rajasthan [720p]
+https://cdn.pishow.tv/ott/live/34/master.m3u8
+#EXTINF:-1 group-title="IPTV",DD Sports [720p]
+https://cdn.pishow.tv/ott/live/13/master.m3u8
+#EXTINF:-1 group-title="IPTV",DD Urdu [720p]
+https://cdn.pishow.tv/ott/live/8/master.m3u8
+#EXTINF:-1 group-title="IPTV",DD Uttar Pradesh [720p]
+https://cdn.pishow.tv/ott/live/36/master.m3u8
+#EXTINF:-1 group-title="IPTV",DD Uttarakhand [720p]
+https://cdn.pishow.tv/ott/live/17/master.m3u8
+#EXTINF:-1 group-title="IPTV",Desi Channel [720p]
+https://livestream.unlimitedcdn.com/agm-dc/desi-channel/index.m3u8
+#EXTINF:-1 group-title="IPTV",Dhoom Music [720p]
+https://cdn.pishow.tv/ott/live/1456/master.m3u8
+#EXTINF:-1 group-title="IPTV",Enterr 10 Bangla [720p]
+https://live-bangla.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Fakt Marathi [720p]
+https://cdn.pishow.tv/ott/live/10002/master.m3u8
+#EXTINF:-1 group-title="IPTV",Good News Today [720p]
+https://cc-89m9zu7a2upfe.akamaized.net/hls/live/2016145/gnt/gntlive/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",GoodNews TV [720p]
+https://bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Gyandarshan [720p]
+https://cdn.pishow.tv/ott/live/14/master.m3u8
+#EXTINF:-1 group-title="IPTV",Hare Krsna TV [720p]
+https://airtelapp.shemaroo.com/harekrsnatv/smil:harekrsnatvadp.smil/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Harvest TV [720p]
+https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvesttvlive1/bbb19eae240ec100af921d511efc86a0.sdp/index.m3u8
+#EXTINF:-1 group-title="IPTV",Harvest TV Keralam [720p]
+https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestenglish/d1796a22d24e8696c7d5d0b5c349fdd2.sdp/index.m3u8
+#EXTINF:-1 group-title="IPTV",Headlines Tripura [720p]
+https://distro.ottlive.co.in/headlinestripura/headlinestripura/index.m3u8
+#EXTINF:-1 group-title="IPTV",Hi Dost! [720p]
+https://cdn.pishow.tv/ott/live/224/master.m3u8
+#EXTINF:-1 group-title="IPTV",HMTV [720p]
+https://cdn.pishow.tv/ott/live/280/master.m3u8
+#EXTINF:-1 group-title="IPTV",HSTV [720p]
+https://live.castmaxcloud.com/live/hstv.m3u8
+#EXTINF:-1 group-title="IPTV",India Today [720p]
+https://amg00644-amg00644c1-ondemandkorea-amesia-10266.playouts.now.amagi.tv/playlist/amg00644-tvtodaynetworkltdfast-indiatoday-ondemandkoreaamesia/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",India TV [720p]
+https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8
+#EXTINF:-1 group-title="IPTV",Indywood TV [720p]
+https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8
+#EXTINF:-1 group-title="IPTV",INews [720p]
+https://cdn.pishow.tv/ott/live/411/master.m3u8
+#EXTINF:-1 group-title="IPTV",Ishwar Bhakti TV [720p]
+https://6n3yow8pl9ok-hls-live.5centscdn.com/ishwartvlive/tv.stream/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Jinvani Channel [720p]
+https://cdn.pishow.tv/ott/live/989/master.m3u8
+#EXTINF:-1 group-title="IPTV",Kairali News [720p]
+https://cdn.pishow.tv/ott/live/1469/master.m3u8
+#EXTINF:-1 group-title="IPTV",Kalinga TV [720p]
+https://server.thelegitpro.in/kalingatv/kalingatv/index.m3u8
+#EXTINF:-1 group-title="IPTV",Kashish News [720p]
+https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8
+#EXTINF:-1 group-title="IPTV",Kaumudy TV [720p]
+https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",KCL TV [720p]
+https://kcltv.livebox.co.in/kclhls/live.m3u8
+#EXTINF:-1 group-title="IPTV",Khushboo Bangla [720p]
+https://cdn.pishow.tv/ott/live/1473/master.m3u8
+#EXTINF:-1 group-title="IPTV",Kite Victers [720p]
+https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",KTV Bangla [720p]
+https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8
+#EXTINF:-1 group-title="IPTV",Life TV [720p]
+https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8
+#EXTINF:-1 group-title="IPTV",Live Times [720p]
+https://stream.ottlive.co.in/livetimetv/index.m3u8
+#EXTINF:-1 group-title="IPTV",Malai Murasu TV [720p]
+https://cdn.pishow.tv/ott/live/1606/master.m3u8
+#EXTINF:-1 group-title="IPTV",Manoranjan Grand [720p]
+https://cdn.pishow.tv/ott/live/1011/master.m3u8
+#EXTINF:-1 group-title="IPTV",Manoranjan TV [720p]
+https://cdn.pishow.tv/ott/live/1013/master.m3u8
+#EXTINF:-1 group-title="IPTV",Media One [720p]
+https://cdn.pishow.tv/ott/live/1481/master.m3u8
+#EXTINF:-1 group-title="IPTV",MediBizTV [720p]
+https://43wrzjnpqoxe-hls-live.wmncdn.net/marinebiztvlive/marinebiztvlive/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Mh 1 Music [720p]
+https://livestream.jswk.online/playlisttest/live/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Mirror Now [720p]
+https://pubads.g.doubleclick.net/ssai/event/DXkHhH2QSnma-HnE3QJqlA/master.m3u8
+#EXTINF:-1 group-title="IPTV",MK Six [720p]
+https://cdn.pishow.tv/ott/live/1253/master.m3u8
+#EXTINF:-1 group-title="IPTV",Music India [720p]
+https://cdn.pishow.tv/ott/live/226/master.m3u8
+#EXTINF:-1 group-title="IPTV",Nation News [720p]
+https://server.playontv.in/nationnews/index.m3u8
+#EXTINF:-1 group-title="IPTV",NDTV 24x7 [720p]
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTV24x7.m3u8
+#EXTINF:-1 group-title="IPTV",NDTV India [720p]
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTVIndia.m3u8
+#EXTINF:-1 group-title="IPTV",Network 10 [720p]
+https://mumbai-edge.smartplaytv.in/Network10/index.m3u8
+#EXTINF:-1 group-title="IPTV",News J [720p]
+https://cdn.pishow.tv/ott/live/1279/master.m3u8
+#EXTINF:-1 group-title="IPTV",News Marathi 24x7 [720p]
+https://live1.ottlive.co.in/newsmarathi/newsmarathi/index.m3u8
+#EXTINF:-1 group-title="IPTV",News9Live [720p]
+https://vg-tv9yupp.vgcdn.net/vglive-sk-526536/v1/019e01ace8511ea540a871e333268/019e01ad3da31ea55784752988551/main.m3u8
+#EXTINF:-1 group-title="IPTV",Northeast Live [720p]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
-#EXTVLCOPT:http-referrer=https://kannada.news18.com/
-https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Kerala [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Madhya Pradesh/Chhattisgarh [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_MP_Chhattisgarh_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Marathi [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Lokmat_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Odia [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Odia_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Punjab/Haryana/Himachal [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Rajasthan [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Rajasthan_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Tamil Nadu [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Urdu [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_Urdu_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News18 Uttar Pradesh Uttarakhand [1080p]
-https://n18syndication.akamaized.net/bpk-tv/News18_UP_Uttarakhand_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 group-title="IPTV",News9Live [1080p]
-https://amg01106-amg01106c3-amgplt0844.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg01106-amg01106c3-amgplt0844/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",NH BollyFlix [1080p]
-https://jmp2.uk/stvp-IN46000140Q
-#EXTINF:-1 group-title="IPTV",NH BollyGold [1080p]
-https://0dc330e6408b4c3b9ac31fd37b121368.mediatailor.ap-south-1.amazonaws.com/v1/master/d367f9b863a7a04827f71ecab4cbeeb11f78a827/nh-bollygold-airtel/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",NH BollyRaga [1080p]
-https://jmp2.uk/stvp-IN460001373
-#EXTINF:-1 group-title="IPTV",NH Tamil Gold [1080p]
-https://d3arbp6l7f096k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-gv6wgpbb4mgwk/playlist.m3u8?ads.ads_cdn=cf&ads.app_domain=APP_DOMAIN&ads.cdn=cf
-#EXTINF:-1 group-title="IPTV",NK TV 24x7 [1080p]
-https://nktv.smartstream.video/smartstream-us/nktvplus/nktvplus/chunks.m3u8
-#EXTINF:-1 group-title="IPTV",NK TV Bangla [1080p]
-https://nktv.smartstream.video/smartstream-us/nkbangla/nkbangla/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",NKR TV Kannada [1080p]
-https://stream.ottlive.co.in/nkrtv/index.m3u8
-#EXTINF:-1 group-title="IPTV",NSC9 News [1080p]
-https://legitpro.co.in/nsc9/index.m3u8
-#EXTINF:-1 group-title="IPTV",NTV Telugu [1080p]
-https://mumbai-edge.smartplaytv.in/NTVTelugu/index.m3u8
-#EXTINF:-1 group-title="IPTV",Oli TV [1080p]
-https://live.olidigital.in/olitv/olitv/index.m3u8
-#EXTINF:-1 group-title="IPTV",PMC Telugu [1080p]
-https://mumbai-edge.smartplaytv.in/PMC/index.m3u8
-#EXTINF:-1 group-title="IPTV",Pradesh24 Gujarati [1080p]
-https://stream2.livebox.co.in/pradesh24hls/live.m3u8
-#EXTINF:-1 group-title="IPTV",Pravasi Channel [1080p]
-https://m6gdavepdn93-hls-live.5centscdn.com/pravasi/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Prime News [1080p]
-https://stream.ottlive.co.in/primenews/index.m3u8
-#EXTINF:-1 group-title="IPTV",Prime9 News [1080p]
-https://mumbai-edge.smartplaytv.in/Prime9News/index.m3u8
-#EXTINF:-1 group-title="IPTV",Prudent Media [1080p]
-https://prudentmcdn.rixcast.com/prudentm.m3u8
-#EXTINF:-1 group-title="IPTV",PTC Punjabi [1080p]
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/index.m3u8
-#EXTINF:-1 group-title="IPTV",PTC Punjabi Gold [1080p]
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6e14bac6d0384e129521a4d005188bfb/index.m3u8
-#EXTINF:-1 group-title="IPTV",Punjabi Hits [1080p]
-https://stream.ottlive.co.in/punjabihits/index.m3u8
-#EXTINF:-1 group-title="IPTV",Punjabi Shorts [1080p]
-https://vglivessai.akamaized.net/ptnr-yupptv/title-Punjabi_Shorts/in/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/27c3fd7a-b01f-4b00-ac03-557ac77acd47/index.m3u8
-#EXTINF:-1 group-title="IPTV",Raj Digital Plus [1080p]
-https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8
-#EXTINF:-1 group-title="IPTV",Raj Musix Tamil [1080p]
-https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/Raj_Musix/master_1.m3u8
-#EXTINF:-1 group-title="IPTV",Raj TV [1080p]
-https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RAJTV/master_1.m3u8
-#EXTINF:-1 group-title="IPTV",Real News Kerala [1080p]
-https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Republic Bangla [1080p]
-https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/main.m3u8
-#EXTINF:-1 group-title="IPTV",Republic Bharat [1080p]
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/RepublicBharat.m3u8
-#EXTINF:-1 group-title="IPTV",Republic TV [1080p]
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/RepublicTV.m3u8
-#EXTINF:-1 group-title="IPTV",Rozana Spokesman [1080p]
-https://live1.ottlive.co.in/spokesman/spokesman/index.m3u8
-#EXTINF:-1 group-title="IPTV",RT India [1080p]
-https://mumbai-edge.smartplaytv.in/RTIndia/index.m3u8
-#EXTINF:-1 group-title="IPTV",SADA TV [1080p]
-http://cdn12.henico.net:8080/live/sadatv/index.m3u8
-#EXTINF:-1 group-title="IPTV",Salvation TV [1080p]
-https://ktismaservers.in:3902/live/salvationtvlive.m3u8
-#EXTINF:-1 group-title="IPTV",Samay Kolkata [1080p]
-https://server.livelegitpro.in/samaykolkata/samaykolkata/index.m3u8
-#EXTINF:-1 group-title="IPTV",Sana Plus [1080p]
-https://mumbai-edge.smartplaytv.in/SanaPlusHD/index.m3u8
-#EXTINF:-1 group-title="IPTV",Sana TV [1080p]
-https://vglivessai.akamaized.net/us/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b6d9e864-ec16-410a-804d-ccf8f720bfaa/index.m3u8
-#EXTINF:-1 group-title="IPTV",Sansad TV 1 [1080p]
-https://d2lk5u59tns74c.cloudfront.net/out/v1/fff8f20221d5456e8922e689d71dedc3/index.m3u8
-#EXTINF:-1 group-title="IPTV",Sansad TV 2 [1080p]
-https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/index.m3u8
-#EXTINF:-1 group-title="IPTV",Sanskar TV [1080p]
-https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8
-#EXTINF:-1 group-title="IPTV",Sanskar UK [1080p]
-https://d34z4embz0hjf6.cloudfront.net/out/v1/7ac2789ff9a544a49337d1ffc54ce61c/index.m3u8
-#EXTINF:-1 group-title="IPTV",Sanskar USA [1080p]
-https://d2netiedy8cz3x.cloudfront.net/out/v1/9bf6fa4ac8d6432cb98da13b121ba3c2/index.m3u8
-#EXTINF:-1 group-title="IPTV",Sanskar Web TV [1080p]
-https://deatfcv3xdvi3.cloudfront.net/out/v1/7a43dd2f64e34ec28da1b4bd6923251a/index.m3u8
-#EXTINF:-1 group-title="IPTV",Satsang TV [1080p]
-https://d2vfwvjxwtwq1t.cloudfront.net/out/v1/6b24239d5517495b986e7705490c6e65/index.m3u8
-#EXTINF:-1 group-title="IPTV",Satsang Web TV [1080p]
-https://d1ji7e9jbzm5g8.cloudfront.net/out/v1/769f22f64d80442889306b9c4abea63c/index.m3u8
-#EXTINF:-1 group-title="IPTV",Shalom [1080p]
-https://d2c4zqo2rb5uf1.cloudfront.net/master.m3u8
-#EXTINF:-1 group-title="IPTV",Shubh TV [1080p]
-https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8
-#EXTINF:-1 group-title="IPTV",Sony Aath [1080p]
-https://cloudplay-sonyliv.pages.dev/aath.m3u8
-#EXTINF:-1 group-title="IPTV",Sony BBC Earth [1080p]
-https://cloudplay-sonyliv.pages.dev/bbcearthhd.m3u8
-#EXTINF:-1 group-title="IPTV",Sony Entertainment Television [1080p]
-http://38.96.178.205/SONYHD/index.m3u8
-#EXTINF:-1 group-title="IPTV",Sony Marathi [1080p]
-https://cloudplay-sonyliv.pages.dev/marathi.m3u8
-#EXTINF:-1 group-title="IPTV",Sony Pal [1080p]
-https://cloudplay-sonyliv.pages.dev/pal.m3u8
-#EXTINF:-1 group-title="IPTV",Sony Pix [1080p]
-https://cloudplay-sonyliv.pages.dev/pixhd.m3u8
-#EXTINF:-1 group-title="IPTV",Sony SAB [1080p]
-https://cloudplay-sonyliv.pages.dev/sabhd.m3u8
-#EXTINF:-1 group-title="IPTV",Sony Sports Ten 1 [1080p]
-https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
-#EXTINF:-1 group-title="IPTV",Sony Sports Ten 2 [1080p]
-https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
-#EXTINF:-1 group-title="IPTV",Sony Sports Ten 3 Hindi [1080p]
-https://cloudplay-sonyliv.pages.dev/ten3.m3u8
-#EXTINF:-1 group-title="IPTV",Sony Sports Ten 4 [1080p]
-https://cloudplay-sonyliv.pages.dev/ten4hd.m3u8
-#EXTINF:-1 group-title="IPTV",Sony Sports Ten 5 [1080p]
-https://cloudplay-sonyliv.pages.dev/ten5.m3u8
-#EXTINF:-1 group-title="IPTV",Sony Wah [1080p]
-https://cloudplay-sonyliv.pages.dev/wah.m3u8
-#EXTINF:-1 group-title="IPTV",Sony Yay! [1080p]
-https://cloudplay-sonyliv.pages.dev/yay.m3u8
-#EXTINF:-1 group-title="IPTV",South Station [1080p]
-https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yw7ztecy8do3q/SS_IN.m3u8
-#EXTINF:-1 group-title="IPTV",Spondon [1080p]
-https://nktv.smartstream.video/smartstream-us/spondon/spondon/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",StarPlus [1080p]
-http://41.205.93.154/STAR-PLUS/index.m3u8
-#EXTINF:-1 group-title="IPTV",Subin TV [1080p]
-https://stream.galaxyott.live/live/subintv/index.m3u8
-#EXTINF:-1 group-title="IPTV",Sudarshan News [1080p]
-https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8
-#EXTINF:-1 group-title="IPTV",Suriya TV [1080p]
-https://stream.ottlive.co.in/suryatvtamil/index.m3u8
-#EXTINF:-1 group-title="IPTV",SVBC [1080p]
-https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",SVBC 2 [1080p]
-https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",SVBC 4 [1080p]
-https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Swatantra TV [1080p]
-https://mumbai-edge.smartplaytv.in/SwatantraTV/index.m3u8
-#EXTINF:-1 group-title="IPTV",Tabbar Hits [1080p]
-https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e11b0319-52e8-4190-ab03-3931cc68eac9/index.m3u8
-#EXTINF:-1 group-title="IPTV",Telugu One [1080p]
-https://teluguone-yupptv.vgcdn.net/v1/019be9e3f04d1ea55784338b5c3e89/019be9e4474415fc60e93459e1e808/teluguone_2500k.m3u8
-#EXTINF:-1 group-title="IPTV",Thalaa TV [1080p]
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2069c593-3c07-4d62-9d44-746be5c3a5d6/manifest.m3u8
-#EXTINF:-1 group-title="IPTV",The Jungle Book [1080p]
-https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
-#EXTINF:-1 group-title="IPTV",The Movie Club [1080p]
-https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8
-#EXTINF:-1 group-title="IPTV",The Voice TV [1080p]
-https://legitpro.co.in/thevoicetv/thevoicetv/index.m3u8
-#EXTINF:-1 group-title="IPTV",Times Now Navbharat [1080p]
-https://yupprestreamliveus.akamaized.net/v1/vglive-sk-717514/main.m3u8
-#EXTINF:-1 group-title="IPTV",TNP News [1080p]
-https://server.thelegitpro.in/tnpnews/tnpnews/index.m3u8
-#EXTINF:-1 group-title="IPTV",TOI Global [1080p]
-https://live.sli.ke/live/npnhm84gz9/master.m3u8
-#EXTINF:-1 group-title="IPTV",Tolly TV [1080p]
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8
-#EXTINF:-1 group-title="IPTV",Top News Marathi [1080p]
-https://live1.ottlive.co.in/topnewsmarathi/topnewsmarathi/index.m3u8
-#EXTINF:-1 group-title="IPTV",Total Bhakti [1080p]
-https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8
-#EXTINF:-1 group-title="IPTV",Travelxp [1080p]
-http://stream.mcquack.net/451/index.m3u8
-#EXTINF:-1 group-title="IPTV",TV BRICS English [1080p]
-https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",TV30 India [1080p]
-https://stream.tv30bharat.com/hls/shree/bhattji.m3u8
-#EXTINF:-1 group-title="IPTV",TV45 [1080p]
-https://server.livelegitpro.in/bnews24/bnews24/video.m3u8
-#EXTINF:-1 group-title="IPTV",U Bangla [1080p]
-https://stream.ottlive.co.in/ubangla/index.m3u8
-#EXTINF:-1 group-title="IPTV",Ultimate TV [1080p]
-https://stream.ottlive.co.in/utvtamil/index.m3u8
-#EXTINF:-1 group-title="IPTV",UTV Palakkad [1080p]
-https://em4qj6nedyvg-hls-live.wmncdn.net/utv/ab2de115318ae40bdd434e193a2f2e7f.sdp/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",Village TV [1080p]
-https://live.villagetv.net/villagetv/hd/index.m3u8
-#EXTINF:-1 group-title="IPTV",Vistaar News [1080p]
-https://stream.ottlive.co.in/vistaartv/index.m3u8
-#EXTINF:-1 group-title="IPTV",VTU [1080p]
-https://lbgo.bozztv.com/ssh101/ssh101/afghantheatretv/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",WION [1080p]
-https://raw.githubusercontent.com/Alstruit/adaptive-streams/alstruit-10_23_in/streams/in/WION.in.m3u8
-#EXTINF:-1 group-title="IPTV",World Punjabi TV [1080p]
-https://live1.ottlive.co.in/worldpunjabitv/worldpunjabitv/index.m3u8
-#EXTINF:-1 group-title="IPTV",YRF Music [1080p]
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
-#EXTINF:-1 group-title="IPTV",ZB Cartoon [1080p]
-https://server.zillarbarta.com/zbcatun/video.m3u8
-#EXTINF:-1 group-title="IPTV",Zee Kannada [1080p]
-https://yuppnimresmum.akamaized.net/28072023/smil:zeekannadahd.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 group-title="IPTV",Zee News [1080p]
-https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8
-#EXTINF:-1 group-title="IPTV",Zodiak TV [1080p]
-https://ranacable.duckdns.org/ZodiakTv/index.m3u8
+#EXTVLCOPT:http-referrer=https://server.thelegitpro.in/northeastlive/northeastlive/embed.html
+https://server.thelegitpro.in/northeastlive/northeastlive/index.fmp4.m3u8
+#EXTINF:-1 group-title="IPTV",NTC TV [720p]
+https://galaxyott.live/hls/ntv.m3u8
+#EXTINF:-1 group-title="IPTV",Odisha TV [720p]
+https://livetv.tarangplus.in/otv-origin/live/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Orange Bangla TV [720p]
+https://cdn.pishow.tv/ott/live/1499/master.m3u8
+#EXTINF:-1 group-title="IPTV",Oscar Movies Bhojpuri [720p]
+https://cdn.pishow.tv/ott/live/233/master.m3u8
+#EXTINF:-1 group-title="IPTV",Pitaara [720p]
+https://vg-pitaaratvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-583798/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Polimer TV [720p]
+https://cdn.pishow.tv/ott/live/1241/master.m3u8
+#EXTINF:-1 group-title="IPTV",Powervision TV [720p]
+https://mumbai-edge.smartplaytv.in/PowerVision/index.m3u8
+#EXTINF:-1 group-title="IPTV",Prarthana TV [720p]
+https://livetv.tarangplus.in/prarthana-origin/live/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",PTC Chakde [720p]
+https://cdn.pishow.tv/ott/live/449/master.m3u8
+#EXTINF:-1 group-title="IPTV",PTC Music [720p]
+https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8
+#EXTINF:-1 group-title="IPTV",Public Music [720p]
+https://cdn.pishow.tv/ott/live/441/master.m3u8
+#EXTINF:-1 group-title="IPTV",Public TV [720p]
+https://cdn.pishow.tv/ott/live/439/master.m3u8
+#EXTINF:-1 group-title="IPTV",R Plus Gold [720p]
+https://cdn.pishow.tv/ott/live/1231/master.m3u8
+#EXTINF:-1 group-title="IPTV",Raatdin Bangla [720p]
+https://server.playontv.in/raatdinbangla/index.m3u8
+#EXTINF:-1 group-title="IPTV",Raj Musix Telugu [720p]
+https://cdn.pishow.tv/ott/live/1213/master.m3u8
+#EXTINF:-1 group-title="IPTV",Republic Kannada [720p]
+https://mumbai-edge.smartplaytv.in/republickannada/index.m3u8
+#EXTINF:-1 group-title="IPTV",Rongeen TV [720p]
+https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8
+#EXTINF:-1 group-title="IPTV",Rupasi Bangla [720p]
+https://cdn.pishow.tv/ott/live/1039/master.m3u8
+#EXTINF:-1 group-title="IPTV",Sadhna [720p]
+https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhanalivetv/live.stream/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Sadhna Plus News [720p]
+https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Salaam TV [720p]
+https://d2o3r1shda7xvv.cloudfront.net/index_5.m3u8
+#EXTINF:-1 group-title="IPTV",Samay Kolkata [720p]
+https://mumbai-edge.smartplaytv.in/SamayKolkata/index.m3u8
+#EXTINF:-1 group-title="IPTV",Sangeet Bangla [720p]
+https://cdn.pishow.tv/ott/live/1143/master.m3u8
+#EXTINF:-1 group-title="IPTV",Sangeet Marathi [720p]
+https://cdn.pishow.tv/ott/live/1229/master.m3u8
+#EXTINF:-1 group-title="IPTV",Shemaroo Marathi Bana [720p]
+https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Shemaroo TV [720p]
+https://cdn.pishow.tv/ott/live/230/master.m3u8
+#EXTINF:-1 group-title="IPTV",Shemaroo Umang [720p]
+https://airtelapp.shemaroo.com/shemarooumang/smil:shemarooumangadp.smil/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Shubh Cinema TV [720p]
+https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8
+#EXTINF:-1 group-title="IPTV",Shubhsandesh TV [720p]
+https://6284rn2xr7xv-hls-live.wmncdn.net/shubhsandeshtv1/live123.stream/index.m3u8
+#EXTINF:-1 group-title="IPTV",Star Jalsha [720p]
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8
+#EXTINF:-1 group-title="IPTV",Star Maa [720p]
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starmaa1.smil/chunklist_b2628000.m3u8
+#EXTINF:-1 group-title="IPTV",Star Maa Movies [720p]
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8
+#EXTINF:-1 group-title="IPTV",Star Pravah [720p]
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starpravah.smil/chunklist_b1928000.m3u8
+#EXTINF:-1 group-title="IPTV",Star Sports 2 [720p]
+http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
+#EXTINF:-1 group-title="IPTV",Star Sports 2 Hindi [720p]
+https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
+#EXTINF:-1 group-title="IPTV",Star Sports Select 2 [720p]
+http://tvsen7.aynascope.net/ssport2hd/index.m3u8
+#EXTINF:-1 group-title="IPTV",Steelbird Music [720p]
+https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
+#EXTINF:-1 group-title="IPTV",Studio One + [720p]
+https://cdn.pishow.tv/ott/live/276/master.m3u8
+#EXTINF:-1 group-title="IPTV",Subhavaartha TV [720p]
+https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",SVBC [720p]
+https://mumbai-edge.smartplaytv.in/SVBC/index.m3u8
+#EXTINF:-1 group-title="IPTV",SVBC 3 [720p]
+https://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Swadesh News [720p]
+https://cdn.pishow.tv/ott/live/465/master.m3u8
+#EXTINF:-1 group-title="IPTV",Swaraj Express SMBC [720p]
+https://cdn.pishow.tv/ott/live/477/master.m3u8
+#EXTINF:-1 group-title="IPTV",Swastik TV [720p]
+https://server.playontv.in/swastiktv/index.m3u8
+#EXTINF:-1 group-title="IPTV",T News [720p]
+https://cdn.pishow.tv/ott/live/385/master.m3u8
+#EXTINF:-1 group-title="IPTV",Tarang Music [720p]
+https://livetv.tarangplus.in/tarangmusic-origin/live/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Tarang TV [720p]
+https://livetv.tarangplus.in/tarangtv-origin/live/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Tehzeeb TV [720p]
+https://cdn.pishow.tv/ott/live/239/master.m3u8
+#EXTINF:-1 group-title="IPTV",TV9 Bangla [720p]
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",TV9 Bharatvarsh [720p]
+https://vg-tv9yupp.vgcdn.net/vglive-sk-468570/v1/019dfce4b3371ea55784752988544/019dfce515ea1ea540a871e333259/main.m3u8
+#EXTINF:-1 group-title="IPTV",TV9 Gujarati [720p]
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9guj3ki8lu/liveabr/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",TV9 Kannada [720p]
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9kanmo6oiq/liveabr/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",TV9 Marathi [720p]
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",TV9 Telugu [720p]
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9telcmjhcs/liveabr/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Vaanavil TV [720p]
+https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",VCV [720p]
+https://5a1178b42cc03.streamlock.net/8210/8210/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",VR Live [720p]
+https://channel.vrlivegujarat.com/hls/vrchannel.m3u8
+#EXTINF:-1 group-title="IPTV",WION [720p]
+https://wion-klowdtv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",WOW Kidz [720p]
+https://yuppparoriglin.akamaized.net/181224/smil:wowkidztelgu.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:-1 group-title="IPTV",ZB Bhakti [720p]
+https://server.zillarbarta.com/zbbhakti/index.m3u8
+#EXTINF:-1 group-title="IPTV",Zee 24 Kalak [720p]
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zee24kalak/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/497f7199-758d-495d-9d2f-a5489231c428/14b7c8ec-16da-47f2-8d7e-5bbaec67b3e2/3.m3u8
+#EXTINF:-1 group-title="IPTV",Zee 24 Taas [720p]
+https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Bangla [720p]
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Bharat [720p]
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Bihar Jharkhand [720p]
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBiharJharkhand.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Business [720p]
+https://dwby15d04agvq.cloudfront.net/index_5.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Cinema [720p]
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Delhi NCR Haryana [720p]
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Kannada News [720p]
+https://d3vzwoqcbpfm8p.cloudfront.net/index_4.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Madhya Pradesh Chhattisgarh [720p]
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Marathi [720p]
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeMarathiHD.m3u8
+#EXTINF:-1 group-title="IPTV",Zee News [720p]
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeenews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8744f9fb-d696-4204-9795-5215ad930c39/main.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Punjab Haryana Himachal [720p]
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeepunjabharyanahima/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/65eed269-2f3a-4dd0-ac89-d18959af28e3/main.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Rajasthan [720p]
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeerajashthannews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8e864b9a-1681-41a0-99a6-387490bc5b24/main.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Tamil [720p]
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeetamil1.smil/playlist.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Tamil News [720p]
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/ZMCL/ZeeTamilNews.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Telugu News [720p]
+https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8
+#EXTINF:-1 group-title="IPTV",Zee TV [720p]
+http://41.205.93.154/ZEE-TV/index.m3u8
+#EXTINF:-1 group-title="IPTV",Zee Uttar Pradesh/Uttarakhand [720p]
+https://duw35ict5q7th.cloudfront.net/index_3.m3u8
+#EXTINF:-1 group-title="IPTV",Zoom [720p]
+https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
