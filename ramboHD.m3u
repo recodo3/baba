@@ -1,71 +1,63 @@
 #EXTM3U
 
 
-#EXTINF:-1 group-title="Sports",Ten 1 HD
+#EXTINF:-1 group-title="LIVE",Ten 1 HD
 https://sliv.tgaadi.workers.dev/ten1hd.m3u8
 
-#EXTINF:-1 group-title="Sports",Ten 2 HD
+#EXTINF:-1 group-title="LIVE",Ten 2 HD
 https://sliv.tgaadi.workers.dev/ten2hd.m3u8
 
-#EXTINF:-1 group-title="Sports",Ten 3 HD
+#EXTINF:-1 group-title="LIVE",Ten 3 HD
 https://sliv.tgaadi.workers.dev/ten3hd.m3u8
 
-#EXTINF:-1 group-title="Sports",Sony Six HD
+#EXTINF:-1 group-title="LIVE",Sony Six HD
 https://sliv.tgaadi.workers.dev/sonysixhd.m3u8
 
 
 
-#EXTINF:-1 group-title="Documentary",Sony BBC Earth HD
+#EXTINF:-1 group-title="LIVE",Sony BBC Earth HD
 https://sliv.tgaadi.workers.dev/sonybbcearthhd.m3u8
 
-#EXTINF:-1 group-title="Documentary",History TV18 Hindi
+#EXTINF:-1 group-title="LIVE",History TV18 Hindi
 https://nw18live.cdn.jio.com/bpk-tv/History_TV18_Hindi_NW18_MOB/output01/index.m3u8
 
 
-#EXTINF:-1 group-title="Movies",Sony Max HD
+#EXTINF:-1 group-title="LIVE",Sony Max HD
 https://sliv.tgaadi.workers.dev/sonymaxhd.m3u8
 
-#EXTINF:-1 group-title="Movies",Max 2
+#EXTINF:-1 group-title="LIVE",Max 2
 https://sliv.tgaadi.workers.dev/max2.m3u8
 
-#EXTINF:-1 group-title="Movies",Sony Wah
+#EXTINF:-1 group-title="LIVE",Sony Wah
 https://sliv.tgaadi.workers.dev/sonywah.m3u8
 
-#EXTINF:-1 group-title="Movies",PIX HD
+#EXTINF:-1 group-title="LIVE",PIX HD
 https://sliv.tgaadi.workers.dev/pixhd.m3u8
 
-#EXTINF:-1 group-title="Movies",Eros Bollywood
+#EXTINF:-1 group-title="LIVE",Eros Bollywood
 https://eros-blywdcnm.cdn.runn.tv/eros/stream/blywcm/playlist.m3u8
 
-#EXTINF:-1 group-title="Movies",Eros Entertainment
+#EXTINF:-1 group-title="LIVE",Eros Entertainment
 https://eros-entrtnmnt.cdn.runn.tv/eros/stream/ersent/playlist.m3u8
 
-#EXTINF:-1 group-title="Movies",Goldmines Bollywood
+#EXTINF:-1 group-title="LIVE",Goldmines Bollywood
 https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8
 
-#EXTINF:-1 group-title="Movies",Goldmine Movies
-https://streams.tangotv.in/GOLDMINEMOVIES/ORIGIN/index.m3u8
-
-#EXTINF:-1 group-title="Movies",Goldmines
-https://streams.tangotv.in/GOLDMINES/ORIGIN/index.m3u8
-
-#EXTINF:-1 group-title="Movies",Goldmines Action
-https://mumt03.tangotv.in/Dsly5z3HGOLDMINESACTION/index.m3u8
 
 
-#EXTINF:-1 group-title="Entertainment",Sony SAB HD
+#EXTINF:-1 group-title="LIVE",Sony SAB HD
 https://sliv.tgaadi.workers.dev/sabhd.m3u8
 
-#EXTINF:-1 group-title="Entertainment",Sony Entertainment Television HD
+#EXTINF:-1 group-title="LIVE",Sony Entertainment Television HD
 https://sliv.tgaadi.workers.dev/sethd.m3u8
 
-#EXTINF:-1 group-title="Entertainment",Sony Pal SD
+#EXTINF:-1 group-title="LIVE",Sony Pal SD
 https://sliv.tgaadi.workers.dev/sonypalsd.m3u8
 
-#EXTINF:-1 group-title="Entertainment",Dangal
+#EXTINF:-1 group-title="LIVE",Dangal
 https://live-dangal.akamaized.net/liveabr/playlist.m3u8
 
-#EXTINF:-1 group-title="Entertainment",Dangal 2
+#EXTINF:-1 group-title="LIVE",Dangal 2
 https://live-dangal2.akamaized.net/liveabr/playlist.m3u8
 
 
