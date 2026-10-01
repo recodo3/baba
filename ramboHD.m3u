@@ -1,23 +1,8 @@
 #EXTM3U
 
 
-
-#EXTINF:-1 group-title="ramboHD",Sony Ten 1 HD
-#https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
-
-#EXTINF:-1 group-title="ramboHD",Sony Ten 2 HD
-#https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
-
-#EXTINF:-1 group-title="ramboHD",Sony Ten 3 Hindi
-#https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
-
-#EXTINF:-1 group-title="ramboHD",Sony Ten 5 HD
-#https://cloudplay-sonyliv.pages.dev/ten5hd.m3u8
-
-
 #EXTINF:-1 group-title="ramboHD",Sony LIV
-#https://sonydaimenew.akamaized.net/hls/live/2120302/ag_strea2909/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790726985~acl=/*~id=55160545306719802229322945520631~hmac=97a266f1f57bd9881ebbb40152c66ab2d51b68ef9a616f7168e66128e2d69a41
-
+https://sonydaimenew.akamaized.net/hls/live/2037143/cricodi0110/HIN/std_lrh-800300010.m3u8?hdnea=exp=1790879519~acl=/*~id=04924431153450707578593793796783~hmac=c43785859e09d98d717d53e315516b60e84c919c0b93f025c78ffb70da514f3f
 
 #EXTINF:-1 group-title="ramboHD",Star Sports 2 HD
 http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
