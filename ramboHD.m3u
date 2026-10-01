@@ -1,46 +1,10 @@
 #EXTM3U
 
-
-#EXTINF:-1 group-title="ramboHD",Sony LIV
-https://sonydaimenew.akamaized.net/hls/live/2037143/cricodi0110/HIN/std_lrh-800300010.m3u8?hdnea=exp=1790879519~acl=/*~id=04924431153450707578593793796783~hmac=c43785859e09d98d717d53e315516b60e84c919c0b93f025c78ffb70da514f3f
-
-#EXTINF:-1 group-title="ramboHD",Star Sports 2 HD
-http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
-
-#EXTINF:-1 group-title="ramboHD",FOX SPORTS 1
-http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
-
 #EXTINF:-1 group-title="ramboHD",The Movie Club [1080p]
 https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8
 
 #EXTINF:-1 group-title="ramboHD",The Movie Club +2 [1080p]
 https://d3gnyty2vddhsg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ytipwjqub3kf8/TMC2_IN.m3u8?ads.ads_cdn=cf&ads.cdn=cf
 
-#EXTINF:-1 group-title="ramboHD",Sony TV
-#https://cloudplay-sonyliv.pages.dev/sethd.m3u8
-
-#EXTINF:-1 group-title="ramboHD",Sony Max 2
-#https://cloudplay-sonyliv.pages.dev/max2.m3u8
-
-#EXTINF:-1 group-title="ramboHD",Sony Max HD
-#https://cloudplay-sonyliv.pages.dev/maxhd.m3u8
-
-#EXTINF:-1 group-title="ramboHD",Zee Cinema HD
-#https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8
-
-
-
-#EXTINF:-1 group-title="ramboHD",Discovery Channel
-https://new8k.deadpooll.workers.dev/playlist?id=1802
-
-
-
-#EXTINF:-1 group-title="ramboHD",Nat Geo Wild
-https://new8k.deadpooll.workers.dev/playlist?id=1808
-
 #EXTINF:-1 group-title="ramboHD",History TV
 https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungindia-historychannelhindi-samsungin/playlist.m3u8
-
-#EXTINF:-1 group-title="ramboHD",Love Nature
-https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8
-
