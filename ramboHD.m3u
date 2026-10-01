@@ -1,32 +1,26 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="Sports",Ten 1 SD
-https://sliv.tgaadi.workers.dev/ten1sd.m3u8
 
 #EXTINF:-1 group-title="Sports",Ten 1 HD
 https://sliv.tgaadi.workers.dev/ten1hd.m3u8
 
-#EXTINF:-1 group-title="Sports",Ten 2 SD
-https://sliv.tgaadi.workers.dev/ten2sd.m3u8
-
 #EXTINF:-1 group-title="Sports",Ten 2 HD
 https://sliv.tgaadi.workers.dev/ten2hd.m3u8
 
-#EXTINF:-1 group-title="Sports",Ten 3 SD
-https://sliv.tgaadi.workers.dev/ten3sd.m3u8
-
 #EXTINF:-1 group-title="Sports",Ten 3 HD
 https://sliv.tgaadi.workers.dev/ten3hd.m3u8
-
-#EXTINF:-1 group-title="Sports",Sony Six SD
-https://sliv.tgaadi.workers.dev/sonysixsd.m3u8
 
 #EXTINF:-1 group-title="Sports",Sony Six HD
 https://sliv.tgaadi.workers.dev/sonysixhd.m3u8
 
 
-#EXTINF:-1 group-title="Movies",Sony Max SD
-https://sliv.tgaadi.workers.dev/sonymaxsd.m3u8
+
+#EXTINF:-1 group-title="Documentary",Sony BBC Earth HD
+https://sliv.tgaadi.workers.dev/sonybbcearthhd.m3u8
+
+#EXTINF:-1 group-title="Documentary",History TV18 Hindi
+https://nw18live.cdn.jio.com/bpk-tv/History_TV18_Hindi_NW18_MOB/output01/index.m3u8
+
 
 #EXTINF:-1 group-title="Movies",Sony Max HD
 https://sliv.tgaadi.workers.dev/sonymaxhd.m3u8
@@ -75,12 +69,5 @@ https://live-dangal.akamaized.net/liveabr/playlist.m3u8
 https://live-dangal2.akamaized.net/liveabr/playlist.m3u8
 
 
-#EXTINF:-1 group-title="Kids",Sony YAY! SD
-https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8
 
 
-#EXTINF:-1 group-title="Documentary",Sony BBC Earth HD
-https://sliv.tgaadi.workers.dev/sonybbcearthhd.m3u8
-
-#EXTINF:-1 group-title="Documentary",History TV18 Hindi
-https://nw18live.cdn.jio.com/bpk-tv/History_TV18_Hindi_NW18_MOB/output01/index.m3u8
